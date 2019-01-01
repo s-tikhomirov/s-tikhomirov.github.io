@@ -39,9 +39,3 @@ As hobbies, I run and cycle, take [photos](https://www.flickr.com/photos/1538246
 * 2017-12-06: [Popular mechanics (Russian edition), December 2017 issue](https://www.popmech.ru/technologies/397902-ethereum-platforma-dlya-blokcheyn-sistem-i-eyo-sozdatel-vitalik-buterin/)
 * 2017-10-01: [Pro Bitcoin podcast, episode 62](http://podcast.probitcoin.ru/e/%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA-62%D1%81%D0%BF%D0%B5%D1%86%D0%B3%D0%BE%D1%81%D1%82%D1%8C%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/)
 * 2016-12-18: [DevZen podcast, episode 123](http://devzen.ru/episode-0123/)
-
-
-# Contact
-
-* Telegram: [s_tikhomirov](https://t.me/s_tikhomirov)
-* Email and other social media: see footer
