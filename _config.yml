@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Sergei Tikhomirov
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Blockchain researcher @ University of Luxembourg
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars0.githubusercontent.com/u/7126627
 
 #
 # Flags below are optional
@@ -20,15 +20,15 @@ footer-links:
   dribbble:
   email:
   facebook:
-  flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
+  flickr: s-tikhomirov
+  github: s-tikhomirov
+  instagram: serj.in.lux
+  linkedin: sergeitikhomirov
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: rss # just type anything here for a working RSS icon
   twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  stackoverflow: users/5752262/sergei-tikhomirov # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: channel/UCfo-qSso2IhRvuJj3AUEwBA/ # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://s-tikhomirov.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
