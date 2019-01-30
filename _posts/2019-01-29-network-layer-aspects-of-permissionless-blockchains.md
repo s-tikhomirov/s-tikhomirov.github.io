@@ -11,7 +11,7 @@ That was one of the main purposes for starting this blog, after all.
 Today's paper is "[Network layer aspects of permissionless blockchains](https://ieeexplore.ieee.org/document/8456488)" by [Till Neudecker](https://twitter.com/tillneu) and [Hannes Hartenstein](https://dsn.tm.kit.edu/english/staff_hartenstein.php) (Karlsruhe Institute of technology).
 
 Blockchains[[^1]] reach consensus without identity management with up to 50% malicious actors (weighted by hash power).
-To agree on something, peers need to know what they're trying to agree own.
+To agree on something, peers need to know what they're trying to agree on.
 Blockchains use a P2P protocol to propagate this data -- usually, transactions and blocks.
 
 [^1]: "Blockchain" in the paper means permissionless blockchain.
@@ -39,7 +39,9 @@ The paper lists the desired properties of the protocol, dividing them into funct
 * DoS resistance (security)
 * anonymity (security)
 
-Many described attacks are based on the assumption that the adversary knows the network topology, so topology hiding is added to the mix as the third security requirement.
+Many described attacks are based on the assumption that the adversary knows the network topology, so topology hiding is added to the mix as the third security requirement. [[^2]]
+
+[^2]: For attacks aiming at inferring Bitcoin's topology, see "[Deanonymisation of clients in Bitcoin P2P network](https://arxiv.org/abs/1405.7418)" by Biryukov et al (2014) and, a more recent development, "[TxProbe: Discovering Bitcoin's Network Topology Using Orphan Transactions](https://arxiv.org/abs/1812.00942)" (2018) by Delgado-Segura et al.
 
 There are two goals that an adversary may pursue:
 
@@ -72,8 +74,8 @@ Then a new node asks bootstrap nodes about other live peers they know (_in-band_
 
 Here are the trade-offs we face:
 
-* If a node asks us for the IPs of nodes we know, how do we respond? Relaying dead addresses is wasting resources. The only way to know for sure whether a peer is alive is to connect to it. But if we only relay the addresses of peers we are currently connected to, we leak information about the network topology! (A simple attack: an adversary asks as for peers we know, we reply with the full list of our current neighbors, the adversary DoSes them.) Therefore, we should relay a random subset of a list of peers which are _probably_ alive.
-* How many outgoing connections do we establish? To few -- and we are prone to eclipsing, too many -- and we limit the number of potential _clients_ (peers which do not accept incoming connections) in the network (clients consume others' connection slots but don't provide their own; Bitcoin has approximately [15 times more clients than servers](https://arxiv.org/abs/1709.06837): 150k vs [10k](https://bitnodes.earn.com/)). Bitcoin maintains 8 outgoing connections (default configuration).
+* If a node asks us for the IPs of nodes we know, how do we respond? Relaying dead addresses is wasting resources. The only way to know for sure whether a peer is alive is to connect to it. But if we only relay the addresses of peers we are currently connected to, we leak information about the network topology! (A simple attack: an adversary asks for peers we know, we reply with the full list of our current neighbors, the adversary DoSes them.) Therefore, we should relay a random subset of a list of peers which are _probably_ alive.
+* How many outgoing connections do we establish? Too few -- and we are prone to eclipsing, too many -- and we limit the number of potential _clients_ (peers which do not accept incoming connections) in the network (clients consume others' connection slots but don't provide their own; Bitcoin has approximately [15 times more clients than servers](https://arxiv.org/abs/1709.06837): 150k vs [10k](https://bitnodes.earn.com/)). Bitcoin maintains 8 outgoing connections (default configuration).
 * How many incoming connections we accept? If few -- clients are out of luck. Too many -- we overwhelm other nodes. Bitcoin allows for up to 117 incoming connections.
 * Which topology do we use? Research shows that we can achieve many good properties by following a desired node degree distribution ([scale-free networks](https://en.wikipedia.org/wiki/Scale-free_network)). But in order to establish a non-trivial topology we must gather information about the actual, say, node degrees, which brings in centralization! Consider a simple example. Connecting to random IPs is suboptimal: being in Europe, why connect to Tokyo and San Francisco, when nodes in London and Frankfurt can relay the same data faster? We don't even need any central coordinator here, as [geo-IP databases](http://geoiplookup.net/) are common knowledge. On the other hand, relying exclusively on physically close peers decreases resiliency against a [fault in a trans-continental link](https://www.theverge.com/2018/4/8/17207556/submarine-internet-cable-mauritania-broken) or Chinese-firewall-style eclipse attacks.
 * Do we discriminate against neighbors or treat them equally? Discrimination is optimization: let's query more data from a peer with a faster connection! On the other hand, performance-based discrimination requires performance data. We can get it by either measuring ourselves (introducing overhead) or relying on a third party or self-reporting (can be Sybil-attacked). Bitcoin uses some discrimination based on self-measurements, namely, nodes which violate the protocol get eventually banned. Tor uses trusted directory authorities to report the bandwidth of nodes.
@@ -104,7 +106,7 @@ It then uses the maximum likelihood estimator to estimate the probability of two
 An adversary is assumed to know all the model parameters and the parameters of the network, such as node degree distribution.
 The adversary knows the a-priori probabilities of two peers being connected and of making a specific observation (receiving a list of addresses from a peer) conditional to the two peers being connected (this information can arguably be extracted from the source code and network measurements).
 
-There is one parameter in the mode, &delta;, which shows how old an address in a local database can be.[[^2]]
+There is one parameter in the mode, &delta;, which shows how old an address in a local database can be.[[^3]]
 The authors ran the simulation with three values of &delta;: 0.16 min (an extremely small value: we evict addresses after just a few seconds after disconnecting), 85 min, 683 min (another extreme: we keep addresses in our list for hours, despite the fact that they have likely died already).
 
 The results are measured in terms of precision and recall.
@@ -112,7 +114,7 @@ An attacker assumes that some pairs of nodes are connected.
 Precision shows which share on the assumed connections actually exist (true positives divided by {true positives plus false positives}).
 Recall shows which share of true connections are in the attacker's estimated set (true positives divided by {true positives plus false negatives}).
 
-[^2]: In the paper, this is &delta; with a subscript d, but I haven't learned how to do subscripts in Markdown yet. At least I can do footnotes!
+[^3]: In the paper, this is &delta; with a subscript d, but I haven't learned how to do subscripts in Markdown yet. At least I can do footnotes!
 
 The results are as follows.
 Recall rises steadily in the number of observations, and smaller &delta; yields high recall values faster: if peer lists contain very few dead addresses, each observation gives attacker valuable insight.
@@ -123,11 +125,11 @@ Note that for an extremely small &delta;, precision is close to one from the ver
 
 So, according to the graphs, 100 measurements is enough to infer the network topology with nearly 100% precision and 55% recall.
 Should we panic already?
-Not quite: as the authors mention in footnote 22[[^3]],
+Not quite: as the authors mention in footnote 22[[^4]],
 
 > Although some parameters were chosen in accordance with those in Bitcoin, our results are not directly applicable to the Bitcoin network because neither the discussed peer discovery strategy nor the network topology matches the ones in Bitcoin.
 
-[^3]: Which is the de-facto standard place to discuss the real-world applicability of your research results.
+[^4]: Which is the de-facto standard place to discuss the real-world applicability of your research results.
 
 ## Relay delay
 
@@ -150,8 +152,8 @@ Bitcoin Core is famous for its conservative development policy.
 Take, for instance, DAG protocols a-la [GHOST](https://www.cs.huji.ac.il/~yoni_sompo/pubs/15/btc_scalability.pdf): they may be more effective than the naive Nakamoto consensus, but they have close to zero chance of being deployed in Bitcoin.
 Zcash had to launch their own blockchain after their initial proposal -- Zerocoin -- [was not accepted by the Bitcoin community](https://en.wikipedia.org/wiki/Zerocoin_protocol).
 
-Bitcoin is so change averse because it's main asset is its predictability.
-The fear of forks, [contentions](https://en.wikipedia.org/wiki/Bitcoin_Cash) or [accidental](https://freedom-to-tinker.com/2015/07/28/analyzing-the-2013-bitcoin-fork-centralized-decision-making-saved-the-day/), outweighs possible benefits of breaking changes.
+Bitcoin is so change averse because its main asset is its predictability.
+The fear of forks, [contentious](https://en.wikipedia.org/wiki/Bitcoin_Cash) or [accidental](https://freedom-to-tinker.com/2015/07/28/analyzing-the-2013-bitcoin-fork-centralized-decision-making-saved-the-day/), outweighs possible benefits of breaking changes.
 That's why it's highly unlikely that consensus-layer changes will be implemented in Bitcoin.
 
 But contrary to application-level modifications, network layer doesn't directly affect consensus and can be improved relatively easily.
