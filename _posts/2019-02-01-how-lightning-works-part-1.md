@@ -69,7 +69,7 @@ Learning about Bitcoin is often described as "going down the rabbit hole".
 The more you learn, the more you realize how much you don't yet understand.
 
 Take transactions.
-A most natural model is the one of account balances.
+A natural model is the one of account balances.
 Alice has 3 BTC, Bob had 7 BTC, Alice sent 1 BTC to Bob -- now they have 2 and 8 BTC, respectively.
 This is what most wallets and block explorers show, but this is not what actually happens.
 
@@ -127,17 +127,17 @@ I'll try to fill the gap.
 In the grand scheme of things, the key insight of Lightning is the way to invalidate old state.
 Alice commits funds in the channel with Bob by putting them in a multisig outputs. [[^5]]
 Alice and Bob pay each other by creating a pair of commitment transactions (Why a pair? Hold on, I will explain later).
-Each commitment transaction spends the same output (from the funding transaction), but creates different outputs.
+Each commitment transaction spends the same output (from the funding transaction), but split the value differently.
 The key question is: how to prevent parties from sending to the blockchain any commitment transaction but the latest one?
 
 Economics comes to the rescue, again!
-As in Bitcoin itself, we can not technically _prevent_ a group of miners from trying to create a fork with a double-spend, but we can make it so _expensive_ that few will even try.
+As in Bitcoin itself, we can not technically _prevent_ a group of miners from trying to create a fork with a double-spend, but we can make it so _expensive_ (mainly in terms of opportunity cost) that few will even try.
 After another payment to Bob, Alice _may_ try to broadcast an earlier commitment transaction, where she has more money.
 But in this case, and this is the Lightning's secret sauce, Bob can take _all_ the money from the channel.
 
 This is done using a clever combination of hashlocks and timelocks, which I will describe it in detail in the next post of this series.
 
-I'll leave you with the Lightning theme song, which, believe it or not, is also [part of the official specification](https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#theme-song):
+I'll leave you with the official Lightning theme song, which, believe it or not, is also [part of the specification](https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#theme-song):
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/edItjMHez48" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
