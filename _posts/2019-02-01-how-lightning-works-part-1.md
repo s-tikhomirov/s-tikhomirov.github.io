@@ -4,7 +4,7 @@ title: How the Lightning network works - Part 1
 published: true
 ---
 
-This the first pois in a series about the Lightning network.
+This the first post in a series about the Lightning network.
 
 I am definitely not the first person to do a write-up on how this cool new tech works.
 I'm doing it anyway, with the main purpose being to summarize my own understanding.
