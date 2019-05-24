@@ -34,7 +34,7 @@ Though if you're a Russian citizen and want to go to the US, you'll [have to](ht
 Like, WTF?
 I just want to take a selfie in front of the Statue of Liberty, and you're telling me that I'll have to apply in Tbilisi or Riga (if I have _another_, Schengen visa) because certain shady Russian figures bought some Facebook ads in 2016?
 
-Open borders is one of the reasons the EU's appeal attracts to me.
+Open borders is one of the reasons the EU's appeal attracts me.
 (I know the EU and Schengen area [are different things](https://www.youtube.com/watch?v=O37yJBFRrfg), but I'll keep things simple for the sake of argument.)
 Let's just agree everyone may live and work wherever they want!
 Sounds nearly too good to be true, but only if you're already born into an EU citizenship.
@@ -60,7 +60,7 @@ The EU is famous for [its multilingualism](https://en.wikipedia.org/wiki/Languag
 Each country wants to ensure that the new citizen would be able to communicate with the government officials and local population.
 Sounds reasonable, right?
 But, again, a French citizen with no knowledge of German can move to Germany without any problems!
-As my experience shows, you can get along quite well using English only in many European cities.
+As my experience shows, you can get along quite well using only English in many European cities.
 Denmark, Sweden, and the Netherlands are especially famous for English proficiency.
 In any case, language knowledge (or lack thereof) is my personal problem!
 If needed, I will learn the language, or use Google Translate, or hire a translator, whatever.
