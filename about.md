@@ -11,6 +11,14 @@ As hobbies, I run and cycle, take [photos](https://www.flickr.com/photos/1538246
 
 # Publications
 
+## 2019
+
+* A. Biruykov, **S. Tikhomirov**. Deanonymization and linkability of cryptocurrency transactions based on network analysis ([paper](/assets/papers/deanonymization-and-linkability.pdf), [slides](/assets/papers/deanonymization-and-linkability-slides.pdf)). Presented at the [4th IEEE European Symposium on Security and Privacy (EuroS&P)](https://www.ieee-security.org/TC/EuroSP2019/) on 17 June 2019.
+
+* A. Biruykov, **S. Tikhomirov**. Security and Privacy of Mobile Wallet Users in Bitcoin, Dash, Monero, and Zcash ([paper](/assets/papers/mobile-wallets.pdf)). In [Pervasive and Mobile Computing](https://www.sciencedirect.com/science/article/pii/S1574119218307181), special issue on blockchain technologies.
+
+* A. Biruykov, **S. Tikhomirov**. Transaction Clustering Using Network Traffic Analysis for Bitcoin and Derived Blockchains ([paper](/assets/papers/transaction-clustering.pdf), [slides](/assets/papers/transaction-clustering-slides.pdf)). Presented at the [2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock)](http://www.cryblock.org/) on 29 April 2019.
+
 ## 2018
 * **S. Tikhomirov**, E. Voskresenskaya, I. Ivanitskiy, R. Takhaviev, E. Marchenko and Y. Aleksandrov. [SmartCheck: Static Analysis of Ethereum Smart Contracts](http://hdl.handle.net/10993/35862) ([paper](/assets/papers/smartcheck.pdf), [slides](https://www.slideshare.net/SergeiTikhomirov/smartcheck-static-analysis-of-ethereum-smart-contracts), [video](https://www.youtube.com/watch?v=FBMI6VAESWo)). Presented at the [1st International Workshop on Emerging Trends in Software Engineering for Blockchain](http://www.agilegroup.eu/wetseb2018/) on 27 May 2018.
 
