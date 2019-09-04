@@ -114,7 +114,7 @@ But as the type of information Bitcoin handles is so valuable (it is pure _value
 ## Is money just another content type?
 
 I'm a long time fan of Andreas Antonopoulos.
-It was his passion and dedication that helped me comprehend the incredible beauty of Bitcoin design.
+His passion and dedication helped me comprehend the incredible beauty of Bitcoin design.
 One of my favorite metaphors by Andreas is "[money as a content type](https://youtu.be/3NqDNetEqmI)".
 However, while catchy and indeed applicable in programming contexts, it is not entirely accurate.
 
@@ -142,7 +142,7 @@ The validity of blocks can be verified independently, and the probabilistic uniq
 
 When the Soviet Union [collapsed](https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union), its economic system was completely dysfunctional. [[^3]]
 It was not just _inefficient_ as you might expect from a centrally planned economy – it was impossible to perform basic financial tasks.
-Instead of money, a porcelain factory would pay their employees in dishes and cups, which they sold for next to nothing on the streets, just to bump into empty shelves in a grocery store. [[^4]]
+Instead of money, a porcelain factory would pay its employees in dishes and cups, which they sold for next to nothing on the streets, just to bump into empty shelves in a grocery store. [[^4]]
 
 [^3]: Let me suggest [Collapse of an Empire](https://www.goodreads.com/book/show/21351284-collapse-of-an-empire) by Yegor Gaidar if you're interested in why that happened.
 [^4]: People also used all kinds of money substitutes. I remember mid-1990s Russian TV ads with prices in "[у.е.](https://ru.wikipedia.org/wiki/Условная_единица)", an euphemism for "USD converted to rubles at the date of purchase" invented due to a legal ban on price listings in ~~stablecoins~~ foreign currencies.
@@ -176,13 +176,13 @@ Let's get back to the Web2 / Web3 discussion.
 Facebook is one of the largest companies in the world, yet I don't pay anything to use it.
 How come?
 This is quite a cliché already, but if you're not paying for the product, you are the product.
-More precisely, you are a data point which lets Facebook develop better products for its true clients – advertisers.
-To attract data point (like you), Facebook maintains all those data centers and hires best developers to lure people into scrolling for hours on end.
+More precisely, [you are a data point](https://rakhim.org/2018/09/you-are-a-data-point/) which lets Facebook develop better products for its true clients – advertisers.
+To attract data point (like you), Facebook maintains all those data centers and hires best developers to lure people into scrolling their feeds for hours on end.
 
-Your data has no _immediate_ value.
+Users' data has no _immediate_ value however.
 It is more of a debt instrument: it promises returns, if you derive insights from it and sell them to someone.
 The value of Facebook's ad targeting system stems from a number of ingredients:
-* the huge amount of data (billions of people use Facebook for their basic daily activities, tracked every split second);
+* the huge amount of data ([1.5 billion people use Facebook daily](https://www.businessinsider.com/facebook-grew-monthly-average-users-in-q1-2019-4?r=US&IR=T), tracked every split second);
 * the monopoly on data (a Facebook's competitor can hire smart engineers, but can't train the algorithms on Facebook's datasets);
 * the proprietary nature of the algorithms.
 
