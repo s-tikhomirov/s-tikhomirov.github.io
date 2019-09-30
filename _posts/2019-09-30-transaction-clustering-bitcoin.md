@@ -177,4 +177,4 @@ See the full papers for more details:
 * [Transaction Clustering Using Network Traffic Analysis for Bitcoin and Derived Blockchains](http://hdl.handle.net/10993/39728) (CryBlock workshop at IEEE INFOCOM 2019) -- a shorter version of "Deanonymization and linkability"
 * [Security and Privacy of Mobile Wallet Users in Bitcoin, Dash, Monero, and Zcash](http://hdl.handle.net/10993/39729) (in a special issue of "Pervasive and Mobile Computing" on blockchain technologies) -- studying the networking aspects of mobile wallets and applying the clustering technique to transactions issued from smartphones.
 
-Don't forget to [follow me on Twitter](https://twitter.com/serg_tikhomirov) (or [elsewhere](/about)) and checkout my [blockchain podcast](https://basicblockradio.com) (in Russian).
+Don't forget to check out the [CryptoLUX website](https://www.cryptolux.org/index.php/Home), [follow me on Twitter](https://twitter.com/serg_tikhomirov) (or [elsewhere](/about)) and checkout my [blockchain podcast](https://basicblockradio.com) (in Russian).
