@@ -13,7 +13,7 @@ As hobbies, I run and cycle, take [photos](https://www.flickr.com/photos/1538246
 
 ## 2019
 
-* A. Biruykov, **S. Tikhomirov**. [Deanonymization and linkability of cryptocurrency transactions based on network analysis](http://hdl.handle.net/10993/39724) ([PDF](/assets/papers/deanonymization-and-linkability.pdf), [slides](/assets/papers/deanonymization-and-linkability-slides.pdf)). Presented at the [4th IEEE European Symposium on Security and Privacy (EuroS&P)](https://www.ieee-security.org/TC/EuroSP2019/) on 17 June 2019.
+* A. Biruykov, **S. Tikhomirov**. [Deanonymization and linkability of cryptocurrency transactions based on network analysis](http://hdl.handle.net/10993/39724) ([PDF](/assets/papers/deanonymization-and-linkability.pdf), [slides](/assets/papers/deanonymization-and-linkability-slides.pdf), [video](https://www.youtube.com/watch?v=XXO3FBqwwO8)). Presented at the [4th IEEE European Symposium on Security and Privacy (EuroS&P)](https://www.ieee-security.org/TC/EuroSP2019/) on 17 June 2019.
 
 * A. Biruykov, **S. Tikhomirov**. [Security and Privacy of Mobile Wallet Users in Bitcoin, Dash, Monero, and Zcash](http://hdl.handle.net/10993/39729
 ) ([PDF](/assets/papers/mobile-wallets.pdf)). In [Pervasive and Mobile Computing](https://www.sciencedirect.com/science/article/pii/S1574119218307181), special issue on blockchain technologies.
