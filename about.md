@@ -42,6 +42,7 @@ As hobbies, I run and cycle, take [photos](https://www.flickr.com/photos/1538246
 
 ## Russian
 
+* 2019-10-26: [YouTube-канал Zavodil, о блокчейн-конференциях](https://www.youtube.com/watch?v=aC3fHp5uQd4)
 * 2018-05-11: [brdt.pro, episode 2 (Monero)](https://www.youtube.com/watch?v=ACIPnQfl1Zs)
 * 2018-03-12: [brdt.pro, episode 1 (Ripple)](https://www.youtube.com/watch?v=1EbjrADSSwc)
 * 2018-01-15: [DevZen podcast, episode 174](http://devzen.ru/episode-0174/)
