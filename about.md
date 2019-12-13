@@ -42,6 +42,7 @@ As hobbies, I run and cycle, take [photos](https://www.flickr.com/photos/1538246
 
 ## Russian
 
+* 2019-12-13: [Иммигранткаст (Immigrantcast) podcast, on cryptocurrencies and life in Luxembourg](https://www.spreaker.com/user/immigrantcast/icast-ep-056-sergey-tikhomirov-luxemburg)
 * 2019-10-26: [YouTube channel Zavodil, on blockchain conferences](https://www.youtube.com/watch?v=aC3fHp5uQd4)
 * 2019-10-22: ["После прочтения" (After reading) podcast, on Peter Thiel's "Zero to One"](https://anchor.fm/afterreadingpodcast/episodes/01-e7tad8)
 * 2018-05-11: [brdt.pro, episode 2 (Monero)](https://www.youtube.com/watch?v=ACIPnQfl1Zs)
