@@ -13,7 +13,7 @@ As hobbies, I run and cycle, take [photos](https://www.flickr.com/photos/1538246
 
 ## 2019
 
-* Introduction to Lightning network. At a Letzblock meetup at bitFlyer office, Luxembourg, on 18 December 2019 ([slides](/assets/Lightning-intro-Tikhomirov.pdf), video).
+* Introduction to Lightning network. At a [Letzblock meetup](https://www.meetup.com/bitFlyerEU/events/266920759/) at bitFlyer office, Luxembourg, on 18 December 2019 ([slides](/assets/Lightning-intro-Tikhomirov.pdf), video).
 
 * A. Biruykov, **S. Tikhomirov**. [Deanonymization and linkability of cryptocurrency transactions based on network analysis](http://hdl.handle.net/10993/39724) ([PDF](/assets/papers/deanonymization-and-linkability.pdf), [slides](/assets/papers/deanonymization-and-linkability-slides.pdf), [video](https://www.youtube.com/watch?v=XXO3FBqwwO8)). Presented at the [4th IEEE European Symposium on Security and Privacy (EuroS&P)](https://www.ieee-security.org/TC/EuroSP2019/) on 17 June 2019.
 
