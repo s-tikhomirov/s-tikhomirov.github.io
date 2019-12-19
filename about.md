@@ -9,9 +9,11 @@ I develop [projects](https://github.com/s-tikhomirov), write [papers](https://sc
 
 As hobbies, I run and cycle, take [photos](https://www.flickr.com/photos/153824629@N03/collections) (including for one cool [crowd-sourced street-level imagery project](https://www.mapillary.com/app/?lat=47.84553334578416&lng=29.74327536841335&z=3.038931848910367&username%5B%5D=serj_nickel)), and [read pop-econ non-fiction](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
 
-# Publications
+# Publications and talks
 
 ## 2019
+
+* Introduction to Lightning network. At a Letzblock meetup at bitFlyer office, Luxembourg, on 18 December 2019 ([slides](/assets/Lightning-intro-Tikhomirov.pdf), video).
 
 * A. Biruykov, **S. Tikhomirov**. [Deanonymization and linkability of cryptocurrency transactions based on network analysis](http://hdl.handle.net/10993/39724) ([PDF](/assets/papers/deanonymization-and-linkability.pdf), [slides](/assets/papers/deanonymization-and-linkability-slides.pdf), [video](https://www.youtube.com/watch?v=XXO3FBqwwO8)). Presented at the [4th IEEE European Symposium on Security and Privacy (EuroS&P)](https://www.ieee-security.org/TC/EuroSP2019/) on 17 June 2019.
 
