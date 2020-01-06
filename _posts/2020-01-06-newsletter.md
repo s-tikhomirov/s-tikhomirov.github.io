@@ -4,9 +4,7 @@ title: Newsletter
 published: true
 ---
 
-I've launched a newsletter:
-
-https://sergei.substack.com/
+I've launched a newsletter: [sergei.substack.com](https://sergei.substack.com/).
 
 The following is its slightly edited introductory issue.
 I'm not declaring this blog dead, but for the near future I'd like to explore the newsletter format and will do most of my writing there.
