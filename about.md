@@ -3,11 +3,26 @@ layout: page
 title: About
 ---
 
-I am a [blockchain security researcher](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) at the [University of Luxembourg](http://wwwen.uni.lu/). I received my MA in applied maths from [CMC MSU](https://cs.msu.ru/en) in 2013. I have been closely following the Bitcoin / blockchain space since late 2013. In 2013 - 2016, I was a researcher on code vulnerabilities and static analysis at [SmartDec](https://smartdec.net/). Since 2014, I am an author at [BitNovosti](http://bitnovosti.com/author/aab5420/). See also: [my CV](/images/tikhomirov-cv-2018-08-31.pdf).
+# Bio
 
-I develop [projects](https://github.com/s-tikhomirov), write [papers](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), give [talks](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) with [slides](https://www.slideshare.net/SergeiTikhomirov), answer [questions](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), and host a [podcast about blockchain in Russian](https://basicblockradio.com/).
+I am a [PhD candidate](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) at the [University of Luxembourg](http://wwwen.uni.lu/) under the supervision of Professor Alex Biryukov. I have been closely following the blockchain space since late 2013. My main research interests are secure development practices on the Ethereum platform, domain-specific languages for smart contracts, privacy and anonymity in Bitcoin, and second-layer blockchain technologies such as the Lightning Network.
 
-As hobbies, I run and cycle, take [photos](https://www.flickr.com/photos/153824629@N03/collections) (including for one cool [crowd-sourced street-level imagery project](https://www.mapillary.com/app/?lat=47.84553334578416&lng=29.74327536841335&z=3.038931848910367&username%5B%5D=serj_nickel)), and [read pop-econ non-fiction](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
+In 2017, I started [Basic Block Radio](https://basicblockradio.com/) (Базовый Блок) – a technology-focused Russian-language podcast about the blockchain space. We recorded more than 100 episodes, covering projects (Parity, Cosmos, Chainlink...) and events (Consensus, Web3 Summit, Baltic Honeybadger...).
+
+I received my MA in applied maths from [CMC MSU](https://cs.msu.ru/en) in 2013. In 2013 – 2016, I was a researcher on code vulnerabilities and static analysis at [SmartDec](https://smartdec.net/) and an author / translator at [BitNovosti](http://bitnovosti.com/author/aab5420/).
+
+See also: my [newsletter](https://sergei.substack.com/), [projects on Github](https://github.com/s-tikhomirov), [academic papers](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [public talks](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) and the [accompanying slides](https://www.slideshare.net/SergeiTikhomirov), [questions and answers on Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [books I read](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
+
+## Bio in Russian
+
+Я [аспирант](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) [университета Люксембурга](http://wwwen.uni.lu/) под руководством профессора Алекса Бирюкова. Я слежу за блокчейн-индустрией с конца 2013 года. Мои исследовательские интересы – практики безопасной разработки на платформе Ethereum, предметно-ориентированные (domain specific) языки для умных контрактов, приватность и анонимность в Bitcoin и блокчейн-технологии второго уровня, такие как Lightning Network.
+
+В 2017 году я основал подкаст «[Базовый Блок](https://basicblockradio.com/)» – русскоязычный подкаст о блокчейн-индустрии с фокусом на технологии. Мы записали более 100 выпусков, освещая проекты (Parity, Cosmos, Chainlink...) и конференции (Consensus, Web3 Summit, Baltic Honeybadger...).
+
+Я окончил [ВМК МГУ](https://cs.msu.ru/) в 2013 году. В 2013 – 2016 годах я занимался исследованиями в области статического анализа кода в [SmartDec](https://smartdec.net/), а также писал и переводил статьи на [Bitnovosti](http://bitnovosti.com/author/aab5420/).
+
+См. также: моя [рассылка](https://sergei.substack.com/), [проект на Github](https://github.com/s-tikhomirov), [научные статьи](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [публичные вытупления](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) и [слайды к ним](https://www.slideshare.net/SergeiTikhomirov), [вопросы и ответы на Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [книжная полка](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
+
 
 # Publications and talks
 
