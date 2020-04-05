@@ -59,6 +59,7 @@ See also: my [newsletter](https://sergei.substack.com/), [projects on Github](ht
 
 ## Russian
 
+* 2020-04-04..05 [Lightning Hacksprint](https://wiki.fulmo.org/index.php?title=Lightning_HackSprint): [short interview in the warm-up stream](https://youtu.be/lBsUWishiEs?t=1680), [talk about channel probing](TODO), [a quick addition at the hackathon wrap-up](https://youtu.be/LSVOPb4stfM?t=3091) about the [getroutevia](https://github.com/s-tikhomirov/getroutevia) c-lightning plugin.
 * 2020-03-15 [DevZen podcast, episode 279](https://devzen.ru/episode-0279/)
 * 2019-12-13: [Иммигранткаст (Immigrantcast) podcast, on cryptocurrencies and life in Luxembourg](https://www.spreaker.com/user/immigrantcast/icast-ep-056-sergey-tikhomirov-luxemburg)
 * 2019-10-26: [YouTube channel Zavodil, on blockchain conferences](https://www.youtube.com/watch?v=aC3fHp5uQd4)
