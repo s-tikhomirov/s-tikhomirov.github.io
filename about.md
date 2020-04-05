@@ -26,6 +26,12 @@ See also: my [newsletter](https://sergei.substack.com/), [projects on Github](ht
 
 # Publications and talks
 
+## 2020
+
+* **S. Tikhomirov**, R. Pickhardt, A. Biryukov, M. Nowostawski. [Probing Channel Balances in the Lightning Network](https://arxiv.org/abs/2004.00333).
+
+* **S. Tikhomirov**, P. Moreno-Sanchez, M. Maffei. [A Quantitative Analysis of Security, Anonymity and Scalability for the Lightning Network](https://eprint.iacr.org/2020/303).
+
 ## 2019
 
 * Introduction to Lightning network. At a [Letzblock meetup](https://www.meetup.com/bitFlyerEU/events/266920759/) at bitFlyer office, Luxembourg, on 18 December 2019 ([slides](/assets/Lightning-intro-Tikhomirov.pdf), [video](https://www.youtube.com/watch?v=tiJIDXpHfVI)).
