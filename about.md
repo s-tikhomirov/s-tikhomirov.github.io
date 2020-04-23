@@ -60,7 +60,8 @@ See also: my [newsletter](https://sergei.substack.com/), [projects on Github](ht
 
 ## English
 
-* 2020-04-16: [Wallet balances on Bitcoin's Lightning Network aren't private, new report says](https://decrypt.co/25800/wallet-balances-on-bitcoins-lightning-network-arent-private-new-report-says) (in Decrypt, about the [Probing Channel Balances in the Lightning Network](https://arxiv.org/abs/2004.00333) paper)
+* 2020-04-21: [Researchers Surface Privacy Vulnerabilities in Bitcoin Lightning Network Payments](https://www.coindesk.com/researchers-surface-privacy-vulnerabilities-in-bitcoin-lightning-network-payments) (Coindesk)
+* 2020-04-16: [Wallet balances on Bitcoin's Lightning Network aren't private, new report says](https://decrypt.co/25800/wallet-balances-on-bitcoins-lightning-network-arent-private-new-report-says) (Decrypt)
 * 2020-04-04..05: [Lightning Hacksprint](https://wiki.fulmo.org/index.php?title=Lightning_HackSprint): [short interview in the warm-up stream](https://youtu.be/lBsUWishiEs?t=1680), [talk about channel probing](TODO), [a quick addition at the hackathon wrap-up](https://youtu.be/LSVOPb4stfM?t=3091) about the [getroutevia](https://github.com/s-tikhomirov/getroutevia) c-lightning plugin.
 * 2018-04-27: [The Bitcoin boom and blockchain breakthrough](/images/bitcoin-boom-snt-report-2017.jpg) (in [SnT](https://wwwen.uni.lu/snt) [Annual report 2017](https://www.uni.lu/content/download/108158/1280308/version/1/file/SNT-Annual-Report-2017-web-interactive.pdf))
 * 2017-05-15: [Uni.lu: SnT Team Wins Big at Hackathon](https://wwwen.uni.lu/snt/news_events/snt_team_wins_big_at_hackathon)
