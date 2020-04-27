@@ -74,6 +74,7 @@ See also: my [newsletter](https://sergei.substack.com/), [projects on Github](ht
 * 2019-12-13: [Иммигранткаст (Immigrantcast) podcast, on cryptocurrencies and life in Luxembourg](https://www.spreaker.com/user/immigrantcast/icast-ep-056-sergey-tikhomirov-luxemburg)
 * 2019-10-26: [YouTube channel Zavodil, on blockchain conferences](https://www.youtube.com/watch?v=aC3fHp5uQd4)
 * 2019-10-22: ["После прочтения" (After reading) podcast, on Peter Thiel's "Zero to One"](https://anchor.fm/afterreadingpodcast/episodes/01-e7tad8)
+* 2019-04-11: ["Подкасты наступают" (Podcasts prevail)](https://medium.com/@podcasts.prevail/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D1%82%D0%B8%D1%85%D0%BE%D0%BC%D0%B8%D1%80%D0%BE%D0%B2-%D0%B8%D0%B2%D0%B0%D0%BD-%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9-%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B1%D0%BB%D0%BE%D0%BA-%D0%B1%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD-%D0%B1%D0%B5%D0%B7-%D0%B1%D1%83%D0%BB%D1%88%D0%B8%D1%82%D0%B0-c1b6ea7b7999)
 * 2018-05-11: [brdt.pro, episode 2 (Monero)](https://www.youtube.com/watch?v=ACIPnQfl1Zs)
 * 2018-03-12: [brdt.pro, episode 1 (Ripple)](https://www.youtube.com/watch?v=1EbjrADSSwc)
 * 2018-01-15: [DevZen podcast, episode 174](http://devzen.ru/episode-0174/)
