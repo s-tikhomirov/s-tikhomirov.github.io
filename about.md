@@ -68,6 +68,7 @@ See also: my [newsletter](https://sergei.substack.com/), [projects on Github](ht
 
 ## Russian
 
+* 2020-05-26: [IT Way Podcast (26) - Что такое блокчейн?](https://www.youtube.com/watch?v=STPV_hUkrXc)
 * 2020-04-23: [Forklog, Поясни за крипту / Сообщество крипторазработчиков и медиа](https://www.youtube.com/watch?v=EXXqc5DhHo0)
 * 2020-04-21: [SDCast podcast, episode 115](https://sdcast.ksdaemon.ru/2020/04/sdcast-115/)
 * 2020-03-15: [DevZen podcast, episode 279](https://devzen.ru/episode-0279/)
