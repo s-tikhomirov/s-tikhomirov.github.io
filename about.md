@@ -13,6 +13,8 @@ I received my MA in applied maths from [CMC MSU](https://cs.msu.ru/en) in 2013. 
 
 See also: my [newsletter](https://sergei.substack.com/), [projects on Github](https://github.com/s-tikhomirov), [academic papers](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [public talks](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) and the [accompanying slides](https://www.slideshare.net/SergeiTikhomirov), [questions and answers on Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [books I read](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
 
+I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committees.html) ([archived](https://web.archive.org/web/20200617130714/http://www.cryblock.org/committees.html)).
+
 ## Bio in Russian
 
 Я [аспирант](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) [университета Люксембурга](http://wwwen.uni.lu/) под руководством профессора Алекса Бирюкова. Я слежу за блокчейн-индустрией с конца 2013 года. Мои исследовательские интересы – практики безопасной разработки на платформе Ethereum, предметно-ориентированные (domain specific) языки для умных контрактов, приватность и анонимность в Bitcoin и блокчейн-технологии второго уровня, такие как Lightning Network.
@@ -23,6 +25,7 @@ See also: my [newsletter](https://sergei.substack.com/), [projects on Github](ht
 
 См. также: моя [рассылка](https://sergei.substack.com/), [проект на Github](https://github.com/s-tikhomirov), [научные статьи](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [публичные вытупления](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) и [слайды к ним](https://www.slideshare.net/SergeiTikhomirov), [вопросы и ответы на Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [книжная полка](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
 
+Я участвовал в комитетах конференций: [Cryblock-2020](http://www.cryblock.org/committees.html) ([archived](https://web.archive.org/web/20200617130714/http://www.cryblock.org/committees.html)).
 
 # Publications and talks
 
