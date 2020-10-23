@@ -5,7 +5,7 @@ title: About
 
 # Bio
 
-I am a [PhD candidate](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) at the [University of Luxembourg](http://wwwen.uni.lu/) under the supervision of Professor Alex Biryukov. I have been closely following the blockchain space since late 2013. My main research interests are secure development practices on the Ethereum platform, domain-specific languages for smart contracts, privacy and anonymity in Bitcoin, and second-layer blockchain technologies such as the Lightning Network.
+I am a [postdoc](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) at the [University of Luxembourg](http://wwwen.uni.lu/) in the group of Professor Alex Biryukov. I defended my PhD thesis "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" in September 2020. I have been closely following the blockchain space since late 2013. My main research interests are privacy and anonymity in Bitcoin, and second-layer blockchain technologies such as the Lightning Network. Earlier, I was researching secure development practices on the Ethereum platform and domain-specific languages for smart contracts.
 
 In 2017, I started [Basic Block Radio](https://basicblockradio.com/) (Базовый Блок) – a technology-focused Russian-language podcast about the blockchain space. We recorded more than 100 episodes, covering projects (Parity, Cosmos, Chainlink...) and events (Consensus, Web3 Summit, Baltic Honeybadger...).
 
@@ -17,7 +17,7 @@ I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committ
 
 ## Bio in Russian
 
-Я [аспирант](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) [университета Люксембурга](http://wwwen.uni.lu/) под руководством профессора Алекса Бирюкова. Я слежу за блокчейн-индустрией с конца 2013 года. Мои исследовательские интересы – практики безопасной разработки на платформе Ethereum, предметно-ориентированные (domain specific) языки для умных контрактов, приватность и анонимность в Bitcoin и блокчейн-технологии второго уровня, такие как Lightning Network.
+Я [постдок](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и блокчейн-технологиях второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
 
 В 2017 году я основал подкаст «[Базовый Блок](https://basicblockradio.com/)» – русскоязычный подкаст о блокчейн-индустрии с фокусом на технологии. Мы записали более 100 выпусков, освещая проекты (Parity, Cosmos, Chainlink...) и конференции (Consensus, Web3 Summit, Baltic Honeybadger...).
 
@@ -36,8 +36,6 @@ I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committ
 * **S. Tikhomirov**, P. Moreno-Sanchez, M. Maffei. [A Quantitative Analysis of Security, Anonymity and Scalability for the Lightning Network](https://eprint.iacr.org/2020/303).
 
 ## 2019
-
-* Introduction to Lightning network. At a [Letzblock meetup](https://www.meetup.com/bitFlyerEU/events/266920759/) at bitFlyer office, Luxembourg, on 18 December 2019 ([slides](/assets/Lightning-intro-Tikhomirov.pdf), [video](https://www.youtube.com/watch?v=tiJIDXpHfVI)).
 
 * A. Biruykov, **S. Tikhomirov**. [Deanonymization and linkability of cryptocurrency transactions based on network analysis](http://hdl.handle.net/10993/39724) ([PDF](/assets/papers/deanonymization-and-linkability.pdf), [slides](/assets/papers/deanonymization-and-linkability-slides.pdf), [video](https://www.youtube.com/watch?v=XXO3FBqwwO8)). Presented at the [4th IEEE European Symposium on Security and Privacy (EuroS&P)](https://www.ieee-security.org/TC/EuroSP2019/) on 17 June 2019.
 
@@ -59,10 +57,11 @@ I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committ
 ## 2016
 * **С. Тихомиров**, Я. Александров, Е. Марченко, Л. Сафин. Поиск закладок в программном обеспечении (**S. Tikhomirov**, Y. Alexandrov, E. Marchenko, L. Safin. Finding undocumented features in programs). «Защита информации. Инсайд» №3, 2016 ([abstract](http://www.inside-zi.ru/pages/3_2016/20.html))
 
-# Media appearences
+# Media appearences and talks
 
 ## English
 
+* 2019-12-18: Introduction to Lightning network. [Letzblock meetup](https://www.meetup.com/bitFlyerEU/events/266920759/) at bitFlyer office, Luxembourg ([slides](/assets/Lightning-intro-Tikhomirov.pdf), [video](https://www.youtube.com/watch?v=tiJIDXpHfVI))
 * 2020-04-21: [Researchers Surface Privacy Vulnerabilities in Bitcoin Lightning Network Payments](https://www.coindesk.com/researchers-surface-privacy-vulnerabilities-in-bitcoin-lightning-network-payments) (Coindesk)
 * 2020-04-17: [Researchers Highlight Privacy Issues With Lightning Network](https://cointelegraph.com/news/researchers-highlight-privacy-issues-with-lightning-network) (Cointelegraph)
 * 2020-04-16: [Wallet balances on Bitcoin's Lightning Network aren't private, new report says](https://decrypt.co/25800/wallet-balances-on-bitcoins-lightning-network-arent-private-new-report-says) (Decrypt)
