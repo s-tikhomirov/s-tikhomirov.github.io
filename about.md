@@ -23,7 +23,7 @@ I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committ
 
 Я окончил [ВМК МГУ](https://cs.msu.ru/) в 2013 году. В 2013 – 2016 годах я занимался исследованиями в области статического анализа кода в [SmartDec](https://smartdec.net/), а также писал и переводил статьи на [Bitnovosti](http://bitnovosti.com/author/aab5420/).
 
-См. также: моя [рассылка](https://sergei.substack.com/), [проект на Github](https://github.com/s-tikhomirov), [научные статьи](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [публичные вытупления](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) и [слайды к ним](https://www.slideshare.net/SergeiTikhomirov), [вопросы и ответы на Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [книжная полка](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
+См. также: моя [рассылка](https://sergei.substack.com/), [проект на Github](https://github.com/s-tikhomirov), [научные статьи](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [публичные выступления](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) и [слайды к ним](https://www.slideshare.net/SergeiTikhomirov), [вопросы и ответы на Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [книжная полка](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
 
 Я участвовал в комитетах конференций: [Cryblock-2020](http://www.cryblock.org/committees.html) ([archived](https://web.archive.org/web/20200617130714/http://www.cryblock.org/committees.html)).
 
