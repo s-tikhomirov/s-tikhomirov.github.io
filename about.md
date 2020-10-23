@@ -27,7 +27,7 @@ I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committ
 
 Я участвовал в комитетах конференций: [Cryblock-2020](http://www.cryblock.org/committees.html) ([archived](https://web.archive.org/web/20200617130714/http://www.cryblock.org/committees.html)).
 
-# Publications and talks
+# Publications
 
 ## 2020
 
