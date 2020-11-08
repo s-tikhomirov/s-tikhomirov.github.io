@@ -26,7 +26,7 @@ For bio in Russian see below.
 
 * **S. Tikhomirov**, R. Pickhardt, A. Biryukov, M. Nowostawski. [Probing Channel Balances in the Lightning Network](https://arxiv.org/abs/2004.00333).
 
-* **S. Tikhomirov**, P. Moreno-Sanchez, M. Maffei. [A Quantitative Analysis of Security, Anonymity and Scalability for the Lightning Network](https://eprint.iacr.org/2020/303).
+* **S. Tikhomirov**, P. Moreno-Sanchez, M. Maffei. [A Quantitative Analysis of Security, Anonymity and Scalability for the Lightning Network](https://eprint.iacr.org/2020/303). Presented at the [IEEE Security and Privacy on the Blockchain workshop](https://ieeesb.org/) (affiliated with EuroS&P) on 7 September 2019 ([video](https://www.youtube.com/watch?v=hslL3aNm8Vg)).
 
 ## 2019
 
