@@ -54,7 +54,7 @@ For bio in Russian see below.
 # Projects
 
 * 2020-09-02..? (ongoing): [co-authoring a chapter](https://github.com/lnbook/lnbook/issues/400) for "Mastering the Lightning Network" about privacy of the LN.
-* 2020-04-04..05: [Lightning Hacksprint April 2020](https://wiki.fulmo.org/index.php?title=Lightning_HackSprint): [getroutevia](https://github.com/s-tikhomirov/getroutevia) c-lightning plugin - [presentation](https://youtu.be/LSVOPb4stfM?t=3091), [short interview in the warm-up stream](https://youtu.be/lBsUWishiEs?t=1680)
+* 2020-04-04..05: [Lightning Hacksprint April 2020](https://wiki.fulmo.org/index.php?title=Lightning_HackSprint): [getroutevia](https://github.com/s-tikhomirov/getroutevia) c-lightning plugin - [presentation](https://youtu.be/LSVOPb4stfM?t=3091), [short interview in the warm-up stream](https://youtu.be/lBsUWishiEs?t=155)
 * 2019-04-08..09: [Bolt-a-thon]: [Bletz-Vote project](https://youtu.be/6M1UWTnGepk?t=3590)
 
 
