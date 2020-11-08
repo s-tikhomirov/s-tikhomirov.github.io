@@ -15,17 +15,8 @@ See also: my [newsletter](https://sergei.substack.com/), [projects on Github](ht
 
 I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committees.html) ([archived](https://web.archive.org/web/20200617130714/http://www.cryblock.org/committees.html)).
 
-## Bio in Russian
+For bio in Russian see below.
 
-Я [постдок](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и блокчейн-технологиях второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
-
-В 2017 году я основал подкаст «[Базовый Блок](https://basicblockradio.com/)» – русскоязычный подкаст о блокчейн-индустрии с фокусом на технологии. Мы записали более 100 выпусков, освещая проекты (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) и конференции (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
-
-Я окончил [ВМК МГУ](https://cs.msu.ru/) в 2013 году. В 2013 – 2016 годах я занимался исследованиями в области статического анализа кода в [SmartDec](https://smartdec.net/), а также писал и переводил статьи на [Bitnovosti](http://bitnovosti.com/author/aab5420/).
-
-См. также: моя [рассылка](https://sergei.substack.com/), [проект на Github](https://github.com/s-tikhomirov), [научные статьи](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [публичные выступления](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) и [слайды к ним](https://www.slideshare.net/SergeiTikhomirov), [вопросы и ответы на Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [книжная полка](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
-
-Я участвовал в комитетах конференций: [Cryblock-2020](http://www.cryblock.org/committees.html) ([archived](https://web.archive.org/web/20200617130714/http://www.cryblock.org/committees.html)).
 
 # Publications
 
@@ -59,15 +50,26 @@ I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committ
 ## 2016
 * **С. Тихомиров**, Я. Александров, Е. Марченко, Л. Сафин. Поиск закладок в программном обеспечении (**S. Tikhomirov**, Y. Alexandrov, E. Marchenko, L. Safin. Finding undocumented features in programs). «Защита информации. Инсайд» №3, 2016 ([abstract](http://www.inside-zi.ru/pages/3_2016/20.html))
 
-# Media appearences and talks
+
+# Projects
+
+* 2020-09-02..? (ongoing): [co-authoring a chapter](https://github.com/lnbook/lnbook/issues/400) for "Mastering the Lightning Network" about privacy of the LN.
+* 2020-04-04..05: [Lightning Hacksprint April 2020](https://wiki.fulmo.org/index.php?title=Lightning_HackSprint): [getroutevia](https://github.com/s-tikhomirov/getroutevia) c-lightning plugin - [presentation](https://youtu.be/LSVOPb4stfM?t=3091), [short interview in the warm-up stream](https://youtu.be/lBsUWishiEs?t=1680)
+* 2019-04-08..09: [Bolt-a-thon]: [Bletz-Vote project](https://youtu.be/6M1UWTnGepk?t=3590)
+
+
+# Talks
+
+Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA/).
+
+
+# Media appearances
 
 ## English
 
-* 2019-12-18: Introduction to Lightning network. [Letzblock meetup](https://www.meetup.com/bitFlyerEU/events/266920759/) at bitFlyer office, Luxembourg ([slides](/assets/Lightning-intro-Tikhomirov.pdf), [video](https://www.youtube.com/watch?v=tiJIDXpHfVI))
 * 2020-04-21: [Researchers Surface Privacy Vulnerabilities in Bitcoin Lightning Network Payments](https://www.coindesk.com/researchers-surface-privacy-vulnerabilities-in-bitcoin-lightning-network-payments) (Coindesk)
 * 2020-04-17: [Researchers Highlight Privacy Issues With Lightning Network](https://cointelegraph.com/news/researchers-highlight-privacy-issues-with-lightning-network) (Cointelegraph)
 * 2020-04-16: [Wallet balances on Bitcoin's Lightning Network aren't private, new report says](https://decrypt.co/25800/wallet-balances-on-bitcoins-lightning-network-arent-private-new-report-says) (Decrypt)
-* 2020-04-04..05: [Lightning Hacksprint](https://wiki.fulmo.org/index.php?title=Lightning_HackSprint): [short interview in the warm-up stream](https://youtu.be/lBsUWishiEs?t=1680), [talk about channel probing](TODO), [a quick addition at the hackathon wrap-up](https://youtu.be/LSVOPb4stfM?t=3091) about the [getroutevia](https://github.com/s-tikhomirov/getroutevia) c-lightning plugin.
 * 2018-04-27: [The Bitcoin boom and blockchain breakthrough](/images/bitcoin-boom-snt-report-2017.jpg) (in [SnT](https://wwwen.uni.lu/snt) [Annual report 2017](https://www.uni.lu/content/download/108158/1280308/version/1/file/SNT-Annual-Report-2017-web-interactive.pdf))
 * 2017-05-15: [Uni.lu: SnT Team Wins Big at Hackathon](https://wwwen.uni.lu/snt/news_events/snt_team_wins_big_at_hackathon)
 
@@ -87,3 +89,16 @@ I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committ
 * 2017-12-06: [Popular mechanics (Russian edition), December 2017 issue](https://www.popmech.ru/technologies/397902-ethereum-platforma-dlya-blokcheyn-sistem-i-eyo-sozdatel-vitalik-buterin/)
 * 2017-10-01: [Pro Bitcoin podcast, episode 62](http://podcast.probitcoin.ru/e/%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA-62%D1%81%D0%BF%D0%B5%D1%86%D0%B3%D0%BE%D1%81%D1%82%D1%8C%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/)
 * 2016-12-18: [DevZen podcast, episode 123](http://devzen.ru/episode-0123/)
+
+
+# Bio in Russian
+
+Я [постдок](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и блокчейн-технологиях второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
+
+В 2017 году я основал подкаст «[Базовый Блок](https://basicblockradio.com/)» – русскоязычный подкаст о блокчейн-индустрии с фокусом на технологии. Мы записали более 100 выпусков, освещая проекты (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) и конференции (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
+
+Я окончил [ВМК МГУ](https://cs.msu.ru/) в 2013 году. В 2013 – 2016 годах я занимался исследованиями в области статического анализа кода в [SmartDec](https://smartdec.net/), а также писал и переводил статьи на [Bitnovosti](http://bitnovosti.com/author/aab5420/).
+
+См. также: моя [рассылка](https://sergei.substack.com/), [проект на Github](https://github.com/s-tikhomirov), [научные статьи](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [публичные выступления](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) и [слайды к ним](https://www.slideshare.net/SergeiTikhomirov), [вопросы и ответы на Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [книжная полка](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
+
+Я участвовал в комитетах конференций: [Cryblock-2020](http://www.cryblock.org/committees.html) ([archived](https://web.archive.org/web/20200617130714/http://www.cryblock.org/committees.html)).
