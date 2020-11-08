@@ -31,6 +31,8 @@ I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committ
 
 ## 2020
 
+* S. Tikhomirov. [Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424) (doctoral thesis).
+
 * **S. Tikhomirov**, R. Pickhardt, A. Biryukov, M. Nowostawski. [Probing Channel Balances in the Lightning Network](https://arxiv.org/abs/2004.00333).
 
 * **S. Tikhomirov**, P. Moreno-Sanchez, M. Maffei. [A Quantitative Analysis of Security, Anonymity and Scalability for the Lightning Network](https://eprint.iacr.org/2020/303).
