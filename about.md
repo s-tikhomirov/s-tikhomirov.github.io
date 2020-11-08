@@ -7,7 +7,7 @@ title: About
 
 I am a [postdoc](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) at the [University of Luxembourg](http://wwwen.uni.lu/) in the group of Professor Alex Biryukov. I defended my PhD thesis "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" in September 2020. I have been closely following the blockchain space since late 2013. My main research interests are privacy and anonymity in Bitcoin, and second-layer blockchain technologies such as the Lightning Network. Earlier, I was researching secure development practices on the Ethereum platform and domain-specific languages for smart contracts.
 
-In 2017, I started [Basic Block Radio](https://basicblockradio.com/) (Базовый Блок) – a technology-focused Russian-language podcast about the blockchain space. We recorded more than 100 episodes, covering projects (Parity, Cosmos, Chainlink...) and events (Consensus, Web3 Summit, Baltic Honeybadger...).
+In 2017, I started [Basic Block Radio](https://basicblockradio.com/) (Базовый Блок) – a technology-focused Russian-language podcast about the blockchain space. We recorded more than 100 episodes, covering projects (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) and events (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
 
 I received my MA in applied maths from [CMC MSU](https://cs.msu.ru/en) in 2013. In 2013 – 2016, I was a researcher on code vulnerabilities and static analysis at [SmartDec](https://smartdec.net/) and an author / translator at [BitNovosti](http://bitnovosti.com/author/aab5420/).
 
@@ -19,7 +19,7 @@ I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committ
 
 Я [постдок](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и блокчейн-технологиях второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
 
-В 2017 году я основал подкаст «[Базовый Блок](https://basicblockradio.com/)» – русскоязычный подкаст о блокчейн-индустрии с фокусом на технологии. Мы записали более 100 выпусков, освещая проекты (Parity, Cosmos, Chainlink...) и конференции (Consensus, Web3 Summit, Baltic Honeybadger...).
+В 2017 году я основал подкаст «[Базовый Блок](https://basicblockradio.com/)» – русскоязычный подкаст о блокчейн-индустрии с фокусом на технологии. Мы записали более 100 выпусков, освещая проекты (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) и конференции (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
 
 Я окончил [ВМК МГУ](https://cs.msu.ru/) в 2013 году. В 2013 – 2016 годах я занимался исследованиями в области статического анализа кода в [SmartDec](https://smartdec.net/), а также писал и переводил статьи на [Bitnovosti](http://bitnovosti.com/author/aab5420/).
 
