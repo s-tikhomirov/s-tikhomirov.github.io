@@ -20,6 +20,10 @@ For bio in Russian see below.
 
 # Publications
 
+## 2021
+
+* R. Pickhardt, **S. Tikhomirov**, A. Biryukov, M. Nowostawski. [Security and Privacy of Lightning Network Payments with Uncertain Channel Balances](https://arxiv.org/abs/2103.08576).
+
 ## 2020
 
 * S. Tikhomirov. [Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424) (doctoral thesis).
