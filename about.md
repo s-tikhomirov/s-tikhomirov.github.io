@@ -79,6 +79,7 @@ Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCf
 
 ## Russian
 
+* 2021-03-22: [Биткоин на максималках — онлайн-конференция ForkLog](https://youtu.be/URbMDmM9094?t=11329)
 * 2021-03-04: [Вастрик-клуб AMA: Всё, что вы хотели знать о криптовалютах, но боялись спросить](https://www.youtube.com/watch?v=qES9S1QnM_Y)
 * 2020-05-26: [IT Way Podcast (26) - Что такое блокчейн?](https://www.youtube.com/watch?v=STPV_hUkrXc)
 * 2020-04-23: [Forklog, Поясни за крипту / Сообщество крипторазработчиков и медиа](https://www.youtube.com/watch?v=EXXqc5DhHo0)
