@@ -1,4 +1,8 @@
-# Channel probing in the face of parallel channels
+---
+layout: post
+title: Channel probing in the face of parallel channels
+published: true
+---
 
 The Lightning Network (LN) is a prominent Bitcoin scaling solution that uses payment channels. Channel probing is inference of supposedly non-public balances of honest users in the LN.
 
@@ -11,7 +15,7 @@ We believe that ignoring **parallel channels** is one of the biggest shortcoming
 We suggest a wide range of countermeasures (both aware and unaware of parallel channels) and evaluate the feasibility of the attack.
 Using our novel LN simulator, we demonstrate that our countermeasures bound the attacker's information gain at 30% while making the attack 2-4 times longer.
 
-The paper is available here: https://eprint.iacr.org/2021/384
+The paper is available here: [https://eprint.iacr.org/2021/384](https://eprint.iacr.org/2021/384)
 
 1. [Basics of channel probing](#basics-of-channel-probing)
 2. [Probing applications and why parallel channels matter matter](#probing-applications-and-why-parallel-channels-matter)
@@ -24,7 +28,7 @@ The paper is available here: https://eprint.iacr.org/2021/384
 9. [Future work](#future-work)
 10. [Conclusions](#conclusions)
 
-## Basics of channel probing
+# Basics of channel probing
 
 We assume that our readers have a basic understanding of how the Lightning Network operates.
 Channel probing involves sending fake payments (with random hashes) via a target channel. 
@@ -49,7 +53,7 @@ However, it's possible to make it very inefficient. The relevant metrics are:
 - the attacker's information gain speed;
 - the attacker's required capital allocation.
 
-## Probing applications and why parallel channels matter
+# Probing applications and why parallel channels matter
 
 Even though inference of balance of a particular channel might itself be interesting, an attacker might also want to infer payments of a particular node (or between two nodes), or infer the full balance of a victim, or do something else. For these scenarios, probing is just a building block.
 
@@ -63,7 +67,7 @@ For (1), parallel channels are irrelevant, and an attacker can be unaware of the
 
 Parallel channels are allowed by the specification (although one of the implementations, c-lightning, running on approximately 11% of nodes, is not planning to support them). As of December 2020, the LN contains 21% parallel channels that hold 45% of the network’s capacity.
 
-## Challenges in spying on parallel channels
+# Challenges in spying on parallel channels
 
 Prior channel probing research ignored parallel channels. So, what's the challenge with inferring balances of parallel channels?
 
@@ -79,7 +83,7 @@ Prior works would either get meaningless results (by claiming that channel A has
 
 We now demonstrate how the inference strategy should be adjusted in the light of parallel channels.
 
-## Attack model
+# Attack model
 
 In our work, we introduce a notion of a "hop", which is a set of all channels between two nodes, with estimates of their bounds. 
 
@@ -90,7 +94,7 @@ Then, every new probe makes the best effort to infer as much knowledge about tar
 While this strategy is aware of parallel channels, it sometimes can't determine which channel-level bound should be updated. While hop-level bounds (that match channel-level bounds for single-channel hops) may be sufficient in some scenarios, the attacker can also be interested in channel-level bounds in the general case. Advanced attack techniques (jamming and policies), which we describe in Section #adv-attacks, may help. Our current attack strategy allows an attacker to be more efficient (e.g., make fewer probes) by taking any extra knowledge into account.
 
 
-## Information metrics
+# Information metrics
 
 To measure the gained knowledge, we introduce a new metric that is aware of parallel channels.
 Intuitively, it reflects the attacker's _information gain_.
@@ -130,7 +134,7 @@ This allows us to say things like "the attacker is able to retrieve 80% of balan
 
 Having defined the attack and the metric to evaluate its success, we implement it in a simulator which models the probing process using the algorithm described above. 
 
-## Simulator
+# Simulator
 
 Multiple simulators have been developed for the LN.
 We believe that our simulator improves upon the state of the art in the following ways:
@@ -143,7 +147,7 @@ Another advantage of our approach is that we model the network itself and the us
 The simulator is extendable, one can change the probing parameters and plug in other path-finding algorithms, amount selection algorithms (besides binary search), etc. We plan to release the simulator under an open-source license.
 
 
-## Countermeasures and evaluation
+# Countermeasures and evaluation
 
 Now, the goal of honest users, routing nodes, and stakeholders of the LN is to reduce the information gain of an attacker.
 
@@ -180,7 +184,7 @@ We also suggest other potential countermeasures without an in-depth analysis of 
 4. using "gates" of channels / links to prevent an external observer from inferring our internal structure beyond the gate;
 5. rate-limiting via linking payments to Stake Certificates (blinded proofs of UTXO ownership).
 
-## Attack optimizations
+# Attack optimizations
 
 Even if a hypothetical attacker is aware of parallel channels and tunes the inference engine accordingly, it turns out that in many cases it's still impossible to infer all channel balances within a hop (e.g., the example in #countermeasures), because an attacker can't easily choose through which channels the payment goes.
 
@@ -196,7 +200,7 @@ These optimizations also come at a cost:
 
 To reduce the costs, an attacker might combine these attack vectors: for example, tune the fees of jamming payments so that they jam a specific channel.
 
-## Future work
+# Future work
 
 The following topics look to us as a natural next step towards better understanding and combating channel probing:
 1. the impact of routing fees on the attacks;
@@ -206,7 +210,7 @@ The following topics look to us as a natural next step towards better understand
 
 We would be excited to see explorations of specific applications of probing, e.g. payment flow inference, built on top of this work.
 
-## Conclusions
+# Conclusions
 
 It's important to better understand channel probing because it's a real privacy threat in the Lightning Network. In this work, we advance this understanding by considering parallel channels. We describe how an attacker may extract information from them using various probing techniques.
 We also suggest ideas for combating probing attacks and demonstrate their efficiency, while also noting the shortcomings they introduce. We hope to see community discussion around these trade-offs.
