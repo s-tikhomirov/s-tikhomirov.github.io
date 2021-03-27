@@ -22,6 +22,7 @@ For bio in Russian see below.
 
 ## 2021
 
+* A. Biryukov, G. Naumenko, **S. Tikhomirov**. [Analysis and Probing of Parallel Channels in the Lightning Network](https://eprint.iacr.org/2021/384)
 * R. Pickhardt, **S. Tikhomirov**, A. Biryukov, M. Nowostawski. [Security and Privacy of Lightning Network Payments with Uncertain Channel Balances](https://arxiv.org/abs/2103.08576).
 
 ## 2020
