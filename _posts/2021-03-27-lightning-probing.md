@@ -71,7 +71,7 @@ Prior channel probing research ignored parallel channels. So, what's the challen
 
 Consider the following example where an attacker Eve is trying to infer balances of channels C1, C2 between Alice and Bob.
 
-![Parallel channels](images/parallel_channels.png "Parallel channels")
+<img src="../images/parallel_channels.png" alt="Parallel channels"/>
 
 Due to non-strict forwarding it's up to the routing nodes to choose which channel will be used for routing. By default, routing nodes will make best effort to route a payment to earn fees.
 
@@ -103,11 +103,45 @@ Consider a channel between Alice and Bob with capacity 1023.
 Ignoring fees, channel reserve, and in-flight payments for simplicity, Alice's balance can take any value between 0 and 1023 - a total of 1024 possible values, which would require 10 bits to encode (the _initial uncertainty_).
 After one probe, the attacker learns that Alice's balance can only take values from 0 to 511, gaining 1 bit of information and decreasing the uncertainty to 9 bits.
 
-| Step | Bounds  | Uncertainty (gran. = 1) | Uncertainty (gran. = 256) |
-|------|---------|-------------------------|---------------------------|
-| 0    |  0-1023 |                      10 |                         2 |
-| 1    |   0-511 |                       9 |                         1 |
-| 2    | 256-511 |                       8 |                         0 |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-dvpl{border-color:inherit;text-align:right;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Step</th>
+    <th class="tg-0pky">Bounds</th>
+    <th class="tg-0pky">Uncertainty (gran. = 1)</th>
+    <th class="tg-0pky">Uncertainty (gran. = 256)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">0</td>
+    <td class="tg-dvpl">0-1023</td>
+    <td class="tg-dvpl">10</td>
+    <td class="tg-dvpl">2</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">1</td>
+    <td class="tg-dvpl">0-511</td>
+    <td class="tg-dvpl">9</td>
+    <td class="tg-dvpl">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">2</td>
+    <td class="tg-dvpl">256-511</td>
+    <td class="tg-dvpl">8</td>
+    <td class="tg-dvpl">0</td>
+  </tr>
+</tbody>
+</table>
 
 The attacker may only wish to learn the balance up to a certain _granularity_.
 In the above example, the granularity is 1 satoshi.
@@ -157,7 +191,7 @@ Since probing is based on sending fake payments and observing the resulting erro
 Each countermeasure may be applied with some probability or under some conditions.
 We assess how these countermeasures (separately and in combinations) make attacks longer and limit the attacker's information gain. Our experiments are summarized in the following graph, where we plot the attacker's information gain (as percentage of the initial uncertainty) as it accumulated throughout the simulated time of the attack.
 
-![The effectiveness of countermeasures](images/combined-plot.png "The effectiveness of countermeasures")
+<img src="../images/combined-plot.png" alt="The effectiveness of countermeasures"/>
 
 Each line represents one attack (the results are averaged across 10 simulations).
 All lines start from 0, indicating that at the start the attacker only knows public channel capacities.
