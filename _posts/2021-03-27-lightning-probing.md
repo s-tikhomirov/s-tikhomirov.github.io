@@ -216,7 +216,7 @@ We also suggest other potential countermeasures without an in-depth analysis of 
 2. on-demand channel rebalancing (e.g., JIT routing);
 3. adversarial strategies for multi-channel hops: a combination of special channel structure and batching to minimize information leak;
 4. using "gates" of channels / links to prevent an external observer from inferring our internal structure beyond the gate;
-5. rate-limiting via linking payments to Stake Certificates (blinded proofs of UTXO ownership).
+5. rate-limiting via linking payments to [Stake Certificates](https://thelab31.xyz/blog/stake-certificates) (blinded proofs of UTXO ownership).
 
 # Attack optimizations
 
