@@ -71,7 +71,7 @@ Prior channel probing research ignored parallel channels. So, what's the challen
 
 Consider the following example where an attacker Eve is trying to infer balances of channels C1, C2 between Alice and Bob.
 
-![Parallel channels](images/parallel_channels.png "Parallel channels")
+<img src="../images/parallel_channels.png" alt="Parallel channels"/>
 
 Due to non-strict forwarding it's up to the routing nodes to choose which channel will be used for routing. By default, routing nodes will make best effort to route a payment to earn fees.
 
@@ -157,7 +157,7 @@ Since probing is based on sending fake payments and observing the resulting erro
 Each countermeasure may be applied with some probability or under some conditions.
 We assess how these countermeasures (separately and in combinations) make attacks longer and limit the attacker's information gain. Our experiments are summarized in the following graph, where we plot the attacker's information gain (as percentage of the initial uncertainty) as it accumulated throughout the simulated time of the attack.
 
-![The effectiveness of countermeasures](images/combined-plot.png "The effectiveness of countermeasures")
+<img src="../images/combined-plot.png" alt="The effectiveness of countermeasures"/>
 
 Each line represents one attack (the results are averaged across 10 simulations).
 All lines start from 0, indicating that at the start the attacker only knows public channel capacities.
