@@ -43,7 +43,7 @@ The attacker repeats probes with new balance estimates until the target precisio
 
 In practice, "sending payments via a target channel" is not possible.
 The sender can only specify an ordered list of nodes that form a payment path.
-Routing nodes are free to choose any available channel to reach the next node in the route (this is called non-strict forwarding). Thus, if the target channel is not the only one between nodes A and B (in other words, if *parallel channels* exist), the attacker can't guarantee that the payment went through the target channel. The attacker can't even tell through which channel the payment actually went. We will talk about these challenges in more detail in section #challenges#.
+Routing nodes are free to choose any available channel to reach the next node in the route (this is called non-strict forwarding). Thus, if the target channel is not the only one between nodes A and B (in other words, if *parallel channels* exist), the attacker can't guarantee that the payment went through the target channel. The attacker can't even tell through which channel the payment actually went. We will talk about these challenges in more detail in Section [Challenges](#challenges).
 
 Completely mitigating channel probing is probably impossible due to the nature of the LN.
 However, it's possible to make it very inefficient. The relevant metrics are:
@@ -55,7 +55,7 @@ However, it's possible to make it very inefficient. The relevant metrics are:
 
 Even though inference of balance of a particular channel might itself be interesting, an attacker might also want to infer payments of a particular node (or between two nodes), or infer the full balance of a victim, or do something else. For these scenarios, probing is just a building block.
 
-In our work, we focus on channel probing in general, without going into much detail about particular attack aims or scenarios.  We achieve generality by a) having a general attack success metric (see Section #attack-model), and b) evaluating it against 100 random targets nodes in the simulated network (see #evaluation).
+In our work, we focus on channel probing in general, without going into much detail about particular attack aims or scenarios.  We achieve generality by a) having a general attack success metric (see [Attack model](#attack-model)), and b) evaluating it against 100 random targets nodes in the simulated network (see [Evaluation](#evaluation)).
 
 While being generic, we understand that an attacker might be interested in two observations:
 1) the maximum amount that can be forwarded between two nodes;
@@ -75,7 +75,7 @@ Consider the following example where an attacker Eve is trying to infer balances
 
 Due to non-strict forwarding it's up to the routing nodes to choose which channel will be used for routing. By default, routing nodes will make best effort to route a payment to earn fees.
 
-In this case, it's impossible for an attacker to infer balances of channel C1 which has both smaller balance and smaller capacity than C2. An attacker would only be able to infer that channel C2 has 3 coins on both sides, and that's it. Even though the attacker knows it can't possibly reflect C1 (because the capacity there is public and equals to 2 coins), an attacker can't do much without advanced techniques like those we suggest in #attack-optimizations#.
+In this case, it's impossible for an attacker to infer balances of channel C1 which has both smaller balance and smaller capacity than C2. An attacker would only be able to infer that channel C2 has 3 coins on both sides, and that's it. Even though the attacker knows it can't possibly reflect C1 (because the capacity there is public and equals to 2 coins), an attacker can't do much without advanced techniques like those we suggest in [Attack optimizations](#attack-optimizations).
 
 Prior works would either get meaningless results (by claiming that channel A has more balance than its capacity), or only achieve very limited information gain (by ignoring many parallel channels).
 
@@ -89,7 +89,7 @@ We propose an attack strategy that keeps track of both hop bounds and channel bo
 Additionally, if the attacker can deduct that the probe went through a particular channel, channel-level bounds are also updated. (Currently, we ignore cases where an estimate applies for a subset of channels.)
 Then, every new probe makes the best effort to infer as much knowledge about target channels as possible.
 
-While this strategy is aware of parallel channels, it sometimes can't determine which channel-level bound should be updated. While hop-level bounds (that match channel-level bounds for single-channel hops) may be sufficient in some scenarios, the attacker can also be interested in channel-level bounds in the general case. Advanced attack techniques (jamming and policies), which we describe in Section #adv-attacks, may help. Our current attack strategy allows an attacker to be more efficient (e.g., make fewer probes) by taking any extra knowledge into account.
+While this strategy is aware of parallel channels, it sometimes can't determine which channel-level bound should be updated. While hop-level bounds (that match channel-level bounds for single-channel hops) may be sufficient in some scenarios, the attacker can also be interested in channel-level bounds in the general case. Advanced attack techniques (jamming and policies), which we describe in Section [Advanced attacks](#adv-attacks), may help. Our current attack strategy allows an attacker to be more efficient (e.g., make fewer probes) by taking any extra knowledge into account.
 
 
 # Information metrics
@@ -103,11 +103,12 @@ Consider a channel between Alice and Bob with capacity 1023.
 Ignoring fees, channel reserve, and in-flight payments for simplicity, Alice's balance can take any value between 0 and 1023 - a total of 1024 possible values, which would require 10 bits to encode (the _initial uncertainty_).
 After one probe, the attacker learns that Alice's balance can only take values from 0 to 511, gaining 1 bit of information and decreasing the uncertainty to 9 bits.
 
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:black;border-style:solid;border-width:1px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-dvpl{border-color:inherit;text-align:right;vertical-align:top}
@@ -117,8 +118,8 @@ After one probe, the attacker learns that Alice's balance can only take values f
   <tr>
     <th class="tg-0pky">Step</th>
     <th class="tg-0pky">Bounds</th>
-    <th class="tg-0pky">Uncertainty (gran. = 1)</th>
-    <th class="tg-0pky">Uncertainty (gran. = 256)</th>
+    <th class="tg-0pky">Uncertainty (granularity = 1)</th>
+    <th class="tg-0pky">Uncertainty (granularity = 256)</th>
   </tr>
 </thead>
 <tbody>
@@ -142,6 +143,7 @@ After one probe, the attacker learns that Alice's balance can only take values f
   </tr>
 </tbody>
 </table>
+
 
 The attacker may only wish to learn the balance up to a certain _granularity_.
 In the above example, the granularity is 1 satoshi.
@@ -218,7 +220,7 @@ We also suggest other potential countermeasures without an in-depth analysis of 
 
 # Attack optimizations
 
-Even if a hypothetical attacker is aware of parallel channels and tunes the inference engine accordingly, it turns out that in many cases it's still impossible to infer all channel balances within a hop (e.g., the example in #countermeasures), because an attacker can't easily choose through which channels the payment goes.
+Even if a hypothetical attacker is aware of parallel channels and tunes the inference engine accordingly, it turns out that in many cases it's still impossible to infer all channel balances within a hop (e.g., the example in [Countermeasures](#countermeasures)), because an attacker can't easily choose through which channels the payment goes.
 
 In our work, we also explored how an attacker might use channel [jamming](https://github.com/t-bast/lightning-docs/blob/master/spam-prevention.md) and channel [policy discrepancies](https://github.com/lightningnetwork/lightning-rfc/pull/765#pullrequestreview-511147029) to overcome the issues with probing parallel channels. These are currently important unsolved issues of the Lightning Network, so it’s fair to assume they will be relevant for a while.
 
