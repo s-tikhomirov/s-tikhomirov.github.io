@@ -16,7 +16,7 @@ Using our novel LN simulator, we demonstrate that our countermeasures bound the 
 The paper is available here: [https://eprint.iacr.org/2021/384](https://eprint.iacr.org/2021/384)
 
 1. [Basics of channel probing](#basics-of-channel-probing)
-2. [Probing applications and why parallel channels matter matter](#probing-applications-and-why-parallel-channels-matter)
+2. [Probing applications and why parallel channels matter](#probing-applications-and-why-parallel-channels-matter)
 3. [Challenges in spying on parallel channels](#challenges-in-spying-on-parallel-channels)
 4. [Attack model](#attack-model)
 5. [Information metrics](#information-metrics)
