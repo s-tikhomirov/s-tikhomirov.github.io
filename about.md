@@ -72,6 +72,7 @@ Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCf
 
 ## English
 
+* 2021-07-09: [Sergei Tikhomirov on Lightning Network Privacy](https://www.monerotalk.live/sergei-tikhomirov-on-lightning-network-privacy) (Monero Talk)
 * 2020-04-21: [Researchers Surface Privacy Vulnerabilities in Bitcoin Lightning Network Payments](https://www.coindesk.com/researchers-surface-privacy-vulnerabilities-in-bitcoin-lightning-network-payments) (Coindesk)
 * 2020-04-17: [Researchers Highlight Privacy Issues With Lightning Network](https://cointelegraph.com/news/researchers-highlight-privacy-issues-with-lightning-network) (Cointelegraph)
 * 2020-04-16: [Wallet balances on Bitcoin's Lightning Network aren't private, new report says](https://decrypt.co/25800/wallet-balances-on-bitcoins-lightning-network-arent-private-new-report-says) (Decrypt)
