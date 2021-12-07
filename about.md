@@ -5,7 +5,9 @@ title: About
 
 # Bio
 
-I am a [postdoc](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) at the [University of Luxembourg](http://wwwen.uni.lu/) in the group of Professor Alex Biryukov. I defended my PhD thesis "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" in September 2020. I have been closely following the blockchain space since late 2013. My main research interests are privacy and anonymity in Bitcoin, and second-layer blockchain technologies such as the Lightning Network. Earlier, I was researching secure development practices on the Ethereum platform and domain-specific languages for smart contracts.
+I am a postdoctoral researcher at [Chaincode Labs](https://chaincode.com/).
+
+Previously, I was a [postdoc](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) and a PhD student at the [University of Luxembourg](http://wwwen.uni.lu/) in the group of Professor Alex Biryukov. I defended my PhD thesis "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" in September 2020. I have been closely following the blockchain space since late 2013. My main research interests are privacy and anonymity in Bitcoin, and second-layer blockchain technologies such as the Lightning Network. Earlier, I was researching secure development practices on the Ethereum platform and domain-specific languages for smart contracts.
 
 In 2017, I started [Basic Block Radio](https://basicblockradio.com/) (Базовый Блок) – a technology-focused Russian-language podcast about the blockchain space. We recorded more than 100 episodes, covering projects (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) and events (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
 
