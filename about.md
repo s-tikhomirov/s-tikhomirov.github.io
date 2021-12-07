@@ -103,7 +103,9 @@ Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCf
 
 # Bio in Russian
 
-Я [постдок](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и блокчейн-технологиях второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
+Я постдок-исследователь в [Chaincode Labs](https://chaincode.com/).
+
+До этого я был [постдоком](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) и аспирантом [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и блокчейн-технологиях второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
 
 В 2017 году я основал подкаст «[Базовый Блок](https://basicblockradio.com/)» – русскоязычный подкаст о блокчейн-индустрии с фокусом на технологии. Мы записали более 100 выпусков, освещая проекты (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) и конференции (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
 
