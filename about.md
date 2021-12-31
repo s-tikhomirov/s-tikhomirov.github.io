@@ -7,7 +7,7 @@ title: About
 
 I am a postdoctoral researcher at [Chaincode Labs](https://chaincode.com/).
 
-Previously, I was a [postdoc](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) and a PhD student at the [University of Luxembourg](http://wwwen.uni.lu/) in the group of Professor Alex Biryukov. I defended my PhD thesis "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" in September 2020. I have been closely following the blockchain space since late 2013. My main research interests are privacy and anonymity in Bitcoin, and second-layer blockchain technologies such as the Lightning Network. Earlier, I was researching secure development practices on the Ethereum platform and domain-specific languages for smart contracts.
+Previously, I was a [postdoc](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) and a PhD student at the [University of Luxembourg](http://wwwen.uni.lu/) in the group of Professor Alex Biryukov. I defended my PhD thesis "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" in September 2020. I have been closely following the blockchain space since late 2013. My main research interests are privacy and anonymity in Bitcoin and off-chain protocols such as the Lightning Network. Earlier, I was researching secure development practices on the Ethereum platform and domain-specific languages for smart contracts.
 
 In 2017, I started [Basic Block Radio](https://basicblockradio.com/) (Базовый Блок) – a technology-focused Russian-language podcast about the blockchain space. We recorded more than 100 episodes, covering projects (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) and events (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
 
@@ -25,6 +25,7 @@ For bio in Russian see below.
 ## 2021
 
 * A. Biryukov, G. Naumenko, **S. Tikhomirov**. [Analysis and Probing of Parallel Channels in the Lightning Network](https://eprint.iacr.org/2021/384)
+
 * R. Pickhardt, **S. Tikhomirov**, A. Biryukov, M. Nowostawski. [Security and Privacy of Lightning Network Payments with Uncertain Channel Balances](https://arxiv.org/abs/2103.08576).
 
 ## 2020
@@ -60,7 +61,7 @@ For bio in Russian see below.
 
 # Projects
 
-* 2020-09-02..? (ongoing): [co-authoring a chapter](https://github.com/lnbook/lnbook/issues/400) for "Mastering the Lightning Network" about privacy of the LN.
+* 2020..2021: co-authored a [chapter on security and privacy](https://github.com/lnbook/lnbook/blob/develop/16_security_privacy_ln.asciidoc) ([pull-request](https://github.com/lnbook/lnbook/issues/400)) for "[Mastering the Lightning Network](https://www.oreilly.com/library/view/mastering-the-lightning/9781492054856/)".
 * 2020-04-04..05: [Lightning Hacksprint April 2020](https://wiki.fulmo.org/index.php?title=Lightning_HackSprint): [getroutevia](https://github.com/s-tikhomirov/getroutevia) c-lightning plugin - [presentation](https://youtu.be/LSVOPb4stfM?t=3091), [short interview in the warm-up stream](https://youtu.be/lBsUWishiEs?t=155)
 * 2019-04-08..09: [Bolt-a-thon](https://boltathon.com/): [Bletz-Vote project](https://youtu.be/6M1UWTnGepk?t=3590)
 
@@ -83,29 +84,30 @@ Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCf
 
 ## Russian
 
+* 2021-11-18: [Подкаст "После прочтения" о книге "Карта культурных различий"](https://youtu.be/f4LG3tWvNVg)
 * 2021-03-22: [Биткоин на максималках — онлайн-конференция ForkLog](https://youtu.be/URbMDmM9094?t=11329)
 * 2021-03-04: [Вастрик-клуб AMA: Всё, что вы хотели знать о криптовалютах, но боялись спросить](https://www.youtube.com/watch?v=qES9S1QnM_Y)
 * 2020-05-26: [IT Way Podcast (26) - Что такое блокчейн?](https://www.youtube.com/watch?v=STPV_hUkrXc)
 * 2020-04-23: [Forklog, Поясни за крипту / Сообщество крипторазработчиков и медиа](https://www.youtube.com/watch?v=EXXqc5DhHo0)
-* 2020-04-21: [SDCast podcast, episode 115](https://sdcast.ksdaemon.ru/2020/04/sdcast-115/)
-* 2020-03-15: [DevZen podcast, episode 279](https://devzen.ru/episode-0279/)
-* 2019-12-13: [Иммигранткаст (Immigrantcast) podcast, on cryptocurrencies and life in Luxembourg](https://www.spreaker.com/user/immigrantcast/icast-ep-056-sergey-tikhomirov-luxemburg)
-* 2019-10-26: [YouTube channel Zavodil, on blockchain conferences](https://www.youtube.com/watch?v=aC3fHp5uQd4)
-* 2019-10-22: ["После прочтения" (After reading) podcast, on Peter Thiel's "Zero to One"](https://anchor.fm/afterreadingpodcast/episodes/01-e7tad8)
-* 2019-04-11: ["Подкасты наступают" (Podcasts prevail)](https://medium.com/@podcasts.prevail/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D1%82%D0%B8%D1%85%D0%BE%D0%BC%D0%B8%D1%80%D0%BE%D0%B2-%D0%B8%D0%B2%D0%B0%D0%BD-%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9-%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B1%D0%BB%D0%BE%D0%BA-%D0%B1%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD-%D0%B1%D0%B5%D0%B7-%D0%B1%D1%83%D0%BB%D1%88%D0%B8%D1%82%D0%B0-c1b6ea7b7999)
-* 2018-05-11: [brdt.pro, episode 2 (Monero)](https://www.youtube.com/watch?v=ACIPnQfl1Zs)
-* 2018-03-12: [brdt.pro, episode 1 (Ripple)](https://www.youtube.com/watch?v=1EbjrADSSwc)
-* 2018-01-15: [DevZen podcast, episode 174](http://devzen.ru/episode-0174/)
-* 2017-12-06: [Popular mechanics (Russian edition), December 2017 issue](https://www.popmech.ru/technologies/397902-ethereum-platforma-dlya-blokcheyn-sistem-i-eyo-sozdatel-vitalik-buterin/)
-* 2017-10-01: [Pro Bitcoin podcast, episode 62](http://podcast.probitcoin.ru/e/%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA-62%D1%81%D0%BF%D0%B5%D1%86%D0%B3%D0%BE%D1%81%D1%82%D1%8C%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/)
-* 2016-12-18: [DevZen podcast, episode 123](http://devzen.ru/episode-0123/)
+* 2020-04-21: [Подкаст "SDCast", выпуск 115](https://sdcast.ksdaemon.ru/2020/04/sdcast-115/)
+* 2020-03-15: [Подкаст "DevZen", выпуск 279](https://devzen.ru/episode-0279/)
+* 2019-12-13: [Подкаст "Иммигранткаст", о криптовалютах и жизни в Люксембурге](https://www.spreaker.com/user/immigrantcast/icast-ep-056-sergey-tikhomirov-luxemburg)
+* 2019-10-26: [YouTube-канал Zavodil, о блокчейн-конференциях](https://www.youtube.com/watch?v=aC3fHp5uQd4)
+* 2019-10-22: [Подкаст "После прочтения", о книге "От нуля к единице"](https://anchor.fm/afterreadingpodcast/episodes/01-e7tad8)
+* 2019-04-11: [Блог "Подкасты наступают", о подкасте "Базовый Блок"](https://medium.com/@podcasts.prevail/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D1%82%D0%B8%D1%85%D0%BE%D0%BC%D0%B8%D1%80%D0%BE%D0%B2-%D0%B8%D0%B2%D0%B0%D0%BD-%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9-%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B1%D0%BB%D0%BE%D0%BA-%D0%B1%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD-%D0%B1%D0%B5%D0%B7-%D0%B1%D1%83%D0%BB%D1%88%D0%B8%D1%82%D0%B0-c1b6ea7b7999)
+* 2018-05-11: [brdt.pro, выпуск 2, о Monero](https://www.youtube.com/watch?v=ACIPnQfl1Zs)
+* 2018-03-12: [brdt.pro, выпуск 1, о Ripple](https://www.youtube.com/watch?v=1EbjrADSSwc)
+* 2018-01-15: [Подкаст "DevZen", выпуск 174](http://devzen.ru/episode-0174/)
+* 2017-12-06: [Журнал "Популярная механика", декабрь 2017, о будущем блокчейн-технологий](https://www.popmech.ru/technologies/397902-ethereum-platforma-dlya-blokcheyn-sistem-i-eyo-sozdatel-vitalik-buterin/)
+* 2017-10-01: [Подкаст "Pro Bitcoin", выпуск 62](http://podcast.probitcoin.ru/e/%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA-62%D1%81%D0%BF%D0%B5%D1%86%D0%B3%D0%BE%D1%81%D1%82%D1%8C%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/)
+* 2016-12-18: [Подкаст "DevZen", выпуск 123](http://devzen.ru/episode-0123/)
 
 
 # Bio in Russian
 
 Я постдок-исследователь в [Chaincode Labs](https://chaincode.com/).
 
-До этого я был [постдоком](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) и аспирантом [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и блокчейн-технологиях второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
+До этого я был [постдоком](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) и аспирантом [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и протоколах второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
 
 В 2017 году я основал подкаст «[Базовый Блок](https://basicblockradio.com/)» – русскоязычный подкаст о блокчейн-индустрии с фокусом на технологии. Мы записали более 100 выпусков, освещая проекты (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) и конференции (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
 
