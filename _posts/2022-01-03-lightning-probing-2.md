@@ -163,14 +163,14 @@ In direct probing, the attacker established a channel to the target hop directly
 
 For each alteration of the probing algorithm, we run the simulation 100 times and average the results.
 
-<img width="600" src="../images/lightning-probing-2/gains_snapshot.png" alt="Information gain graphs."/>
+<img width="800" src="../images/lightning-probing-2/gains_snapshot.png" alt="Information gain graphs."/>
 
 For information gain, we observe that:
 1. for non-enhanced probing (the left graph), the information gain decreases as the number of channels increases (due to the dimensionality issue);
 2. jamming-enhanced probing (the right graph) overcomes this limitation, achieving nearly full information extraction for multi-channel hops;
 3. all else equal, remote probing performs slightly worse than direct probing due to routing issues.
 
-<img width="600" src="../images/lightning-probing-2/speed_snapshot.png" alt="Probing speed graphs."/>
+<img width="800" src="../images/lightning-probing-2/speed_snapshot.png" alt="Probing speed graphs."/>
 
 For probing speed, we observe that:
 1. Direct probing with optimized amount selection (the left graph, blue line) achieves nearly perfect probing speed of 1 bit / message;
