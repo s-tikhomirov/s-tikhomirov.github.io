@@ -15,6 +15,7 @@ A video presentation based on this post:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FOOBAR" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
+
 First, we briefly introduce the Lightning network (LN) and the channel balance probing attack. Then, we propose an enhanced probing technique that allows an attacker to extract more private information faster. We run simulations based on real-world data and conclude that the proposed probing method is indeed better than prior art. Finally, we discuss potential countermeasures and their trade-offs.
 
 
@@ -187,5 +188,5 @@ In summary, we have introduced an enhanced probing technique for Lightning chann
 
 More generally, the issue we've been discussing illustrates the dilemma for Lightning. As long as Lightning is a permissionless and privacy-focused (in particular, it uses onion routing), bad actors would be able to abuse it by mounting attacks on reliability (such as jamming) or privacy (such as probing). The key challenge in the development of the LN is to limit the negative effects of unwanted network activity while preserving the permissionless nature of the network. We hope this work helps advance the understanding of the relevant trade-offs and be a basis of future protocol improvements.
 
-For more details, see the full paper (to be presented at Financial Cryptography 2022). Slides and a video presentation (roughly based on this post) are also available.
+For more details, see the [full paper](https://eprint.iacr.org/2021/384) (to be presented at [Financial Cryptography 2022](https://fc22.ifca.ai/)). [Slides](https://docs.google.com/presentation/d/1IPZdpSVX2B636G6m4o66jQCk8RAO5HUy_HD_ITgR_-M/edit?usp=sharing) and a [video presentation](FOOBAR) (roughly based on this post) are also available.
 
