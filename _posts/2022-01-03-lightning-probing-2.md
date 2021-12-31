@@ -49,7 +49,7 @@ As we will see, one can exploit the error reporting mechanism of the Lightning n
 
 The attacker (also referred to as the Prober) wants to learn remote channels balances (which is private information). To achieve this goal, it sends fake payments, or _probes_, and observes where they fail. If a probe reaches the final destination, all channels along the path have sufficient balances. Otherwise, if the probe fails somewhere along the path, the Prober learns that the erring node lacks balance.
 
-The attacker's knowledge may be visualized as follows. The outer interval denotes the target channel. The star shows the true balance. The colored area is the set of all points where, according to the attacker's current knowledge, the balance may be. $b^l$ and $b^u$ are the current balance bounds.
+The attacker's knowledge may be visualized as follows. The outer interval denotes the target channel. The star shows the true balance. The colored area is the set of all points where, according to the attacker's current knowledge, the balance may be. b^l and b^u are the current balance bounds.
 
 <img width="400" src="../images/lightning-probing-2/1dim.png" alt="The attacker's knowledge when probing one channel."/>
 
@@ -66,25 +66,25 @@ Note that while the prober cannot update _individual_ balance bounds, it does ge
 
 # Probing model
 
-We propose a new geometrical model that describes probing in the general case, for any number of parallel channels. To introduce our model, let's use a two-dimensional example. Consider a two-channel hop with the capacities of both channels equal to $C$. It can be represented as a square with corners $(0,0)$, $(0,C)$, $(C,C)$, $(C,0)$.
+We propose a new geometrical model that describes probing in the general case, for any number of parallel channels. To introduce our model, let's use a two-dimensional example. Consider a two-channel hop with the capacities of both channels equal to C. It can be represented as a square with corners (0,0), (0,C), (C,C), (C,0).
 
 <img width="400" src="../images/lightning-probing-2/2dim-balance.png" alt="A geometrical representation of a two-channel hop."/>
 
-Each point within the square corresponds to a possible vector of channel balances. The star denotes the true balance point: the first channel has balance $b_1$, and the second channel has balance $b_2$.
+Each point within the square corresponds to a possible vector of channel balances. The star denotes the true balance point: the first channel has balance b_1, and the second channel has balance b_2.
 
-The attacker sends the first probe of amount $a_1$ that doesn't reach the destination.
+The attacker sends the first probe of amount a_1 that doesn't reach the destination.
 
 <img width="600" src="../images/lightning-probing-2/2dim.png" alt="Probing a two-channel hop."/>
 
-This means that _all_ channel balances are less than the probe amount: $b_1 < a_1$ and $b_2 < a_1$. Geometrically, this means that the true balance is _inside_ the $a_1$-sided square that the probe "cuts" from the lower-left corner of the larger square. Now, the attacker sends another probe with amount $a_2$ that does reach the destination. This means that _at least one_ of the channels has sufficient balance: either $b_1 > a_2$ or $b_2 > a_2$. Geometrically, it means that the true balance is _outside_ of the $a_2$-sided square. As a result of there two probes, the attacker has obtained the upper and lower bounds that correspond geometrically to the colored L-shaped figure (the difference of two squares).
+This means that _all_ channel balances are less than the probe amount: b_1 < a_1 and b_2 < a_1. Geometrically, this means that the true balance is _inside_ the a_1-sided square that the probe "cuts" from the lower-left corner of the larger square. Now, the attacker sends another probe with amount a_2 that does reach the destination. This means that _at least one_ of the channels has sufficient balance: either b_1 > a_2 or b_2 > a_2. Geometrically, it means that the true balance is _outside_ of the a_2-sided square. As a result of there two probes, the attacker has obtained the upper and lower bounds that correspond geometrically to the colored L-shaped figure (the difference of two squares).
 
-What do these bounds bound, by the way? As mentioned before, the prober doesn't necessarily learn something about individual balances. Instead, it learns how much a hop can forward in the probe direction -- simply speaking, the maximum of the balances. We refer to this value as $h = max(b_i)$. The analogous value in the opposite direction is denoted as $g$.
+What do these bounds bound, by the way? As mentioned before, the prober doesn't necessarily learn something about individual balances. Instead, it learns how much a hop can forward in the probe direction -- simply speaking, the maximum of the balances. We refer to this value as h = max(b_i). The analogous value in the opposite direction is denoted as g.
 
 Probes in the opposite direction have a similar representation in the geometrical model: instead of "cutting" squares from the lower-left corner from the larger square, they cut squares from the upper-right corner. Consider the state of probing after four probes have been done:
 
 <img width="600" src="../images/lightning-probing-2/2dim-full.png" alt="Attacker's knowledge after four probes for a two-channel hop."/>
 
-The attacker's knowledge is comprised of four values -- the lower and upper bounds on $h$ and $g$. The bounds on $h$ -- $h^l$ and $h^u$ -- define an L-shape "looking north-east", whereas $g^l$ and $g^u$ define an analogous L-shape "looking south-west". The intersection of these shapes defines the attacker's knowledge: the smaller the area of the resulting figure, the more precisely the prober knows there the true balances are.
+The attacker's knowledge is comprised of four values -- the lower and upper bounds on h and g. The bounds on h -- h^l and h^u -- define an L-shape "looking north-east", whereas g^l and g^u define an analogous L-shape "looking south-west". The intersection of these shapes defines the attacker's knowledge: the smaller the area of the resulting figure, the more precisely the prober knows there the true balances are.
 
 Here is where our first contribution comes in. We suggest choosing each next probe amount such as the probe cuts the colored figure in half by area. Prior algorithms chose the probe amount as the mid-point between the current balance estimates, which may be sub-optimal in the multi-channel case. Instead, our generalized approach is optimized for hops with any number of channels.
 
@@ -105,9 +105,9 @@ Consider a 3-channel hop with equal-capacity channels.
 
 <img width="400" src="../images/lightning-probing-2/3dim.png" alt="Probing a three-channel hop with equal capacities."/>
 
-Analogously to the two-dimensional case, each probe now cuts a _cube_ (instead of a square) from the lower-left vertex of the larger _cube_ that represents the hop. The two bounds on $h$ correspond to two surfaces, each composed of three perpendicular faces of the respective cube. The true balance must be above the smaller (purple) surface representing the lower bound, and below the larger (orange) surface representing the upper bound.
+Analogously to the two-dimensional case, each probe now cuts a _cube_ (instead of a square) from the lower-left vertex of the larger _cube_ that represents the hop. The two bounds on h correspond to two surfaces, each composed of three perpendicular faces of the respective cube. The true balance must be above the smaller (purple) surface representing the lower bound, and below the larger (orange) surface representing the upper bound.
 
-What happens when the attacker learn $h$ precisely? The two surfaces collapse into one:
+What happens when the attacker learn h precisely? The two surfaces collapse into one:
 
 <img width="400" src="../images/lightning-probing-2/3dim-final.png" alt="A three-channel hop fully probed from one direction."/>
 
@@ -138,7 +138,7 @@ There are two types of jamming (by capacity and by slots), discussing them is ou
 
 We suggest combining jamming and probing to overcome the dimensionality issue described above. In particular, the attack can jam all channels in a multi-channel hop except one, and then probe the remaining channel. In other words, while the attacker cannot influence how a routing node chooses a channel to forward a probe, it is possible to decrease the set of _suitable_ channels the node picks from.
 
-Geometrically, jamming-enhanced probing boils down to revealing each channel individually. In the 3-dimensional case, the prober first reveals $b_1$, then $b_2$, and then $b_3$. Each balance is represented by a plane parallel to the corresponding axis. The intersection of three perpendicular planes is a single point representing the true balance vector.
+Geometrically, jamming-enhanced probing boils down to revealing each channel individually. In the 3-dimensional case, the prober first reveals b_1, then b_2, and then b_3. Each balance is represented by a plane parallel to the corresponding axis. The intersection of three perpendicular planes is a single point representing the true balance vector.
 
 <img width="400" src="../images/lightning-probing-2/3dim-enhanced.png" alt="The end result of jamming-enhanced probing a three-channel hop."/>
 
@@ -149,9 +149,9 @@ The question now is: how do we measure the benefits that our proposed improvemen
 
 # Evaluation
 
-We evaluate our approach using our own simulator written in Python. We capture a snapshot of the network using our own Lightning node and assign balances to channels uniformly at random. We then pick $20$ target hops with a given number of channels (from $1$ to $5$) and probe them.
+We evaluate our approach using our own simulator written in Python. We capture a snapshot of the network using our own Lightning node and assign balances to channels uniformly at random. We then pick 20 target hops with a given number of channels (from 1 to 5) and probe them.
 
-We use two metrics to access the success of the attack: information gain and probing speed. Information gain reflects the share (from $0$ to $1$) of uncertainty on balances in target hops that the attacker was able to resolve. (By uncertainty we mean the binary logarithm of the number of points contained in the figure describing the attackers knowledge after the final probing step.) Probing speed shows how much information the prober gets per message sent (a message is either a probe of a jam).
+We use two metrics to access the success of the attack: information gain and probing speed. Information gain reflects the share (from 0 to 1) of uncertainty on balances in target hops that the attacker was able to resolve. (By uncertainty we mean the binary logarithm of the number of points contained in the figure describing the attackers knowledge after the final probing step.) Probing speed shows how much information the prober gets per message sent (a message is either a probe of a jam).
 
 We alter the probing algorithm in three ways:
 
@@ -161,7 +161,7 @@ We alter the probing algorithm in three ways:
 
 In direct probing, the attacker established a channel to the target hop directly. In the real network, this requires on-chain fee but, on the other hand, all probes reach the target hop. In remote probing, the attacker sends probes along multi-channel paths. This allows for amortizing the cost of channel openings along many target hops but some probes are wasted due to insufficient balances in intermediary hops.
 
-For each alteration of the probing algorithm, we run the simulation $100$ times and average the results.
+For each alteration of the probing algorithm, we run the simulation 100 times and average the results.
 
 <img width="600" src="../images/lightning-probing-2/gains_snapshot.png" alt="Information gain graphs."/>
 
