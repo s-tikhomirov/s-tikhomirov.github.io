@@ -68,7 +68,7 @@ Note that while the prober cannot update _individual_ balance bounds, it does ge
 
 We propose a new geometrical model that describes probing in the general case, for any number of parallel channels. To introduce our model, let's use a two-dimensional example. Consider a two-channel hop with the capacities of both channels equal to C. It can be represented as a square with corners (0,0), (0,C), (C,C), (C,0).
 
-<img width="400" src="../images/lightning-probing-2/2dim-balance.png" alt="A geometrical representation of a two-channel hop."/>
+<img width="300" src="../images/lightning-probing-2/2dim-balance.png" alt="A geometrical representation of a two-channel hop."/>
 
 Each point within the square corresponds to a possible vector of channel balances. The star denotes the true balance point: the first channel has balance b_1, and the second channel has balance b_2.
 
