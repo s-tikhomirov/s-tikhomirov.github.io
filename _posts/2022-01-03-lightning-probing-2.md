@@ -13,7 +13,7 @@ In this post, we summarize [our paper](https://eprint.iacr.org/2021/384) on chan
 
 A video presentation based on this post:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FOOBAR" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZiD7NqQ1YZc" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
 
 First, we briefly introduce the Lightning network (LN) and the channel balance probing attack. Then, we propose an enhanced probing technique that allows an attacker to extract more private information faster. We run simulations based on real-world data and conclude that the proposed probing method is indeed better than prior art. Finally, we discuss potential countermeasures and their trade-offs.
@@ -136,7 +136,7 @@ There are two types of jamming (by capacity and by slots), discussing them is ou
 
 <img width="600" src="../images/lightning-probing-2/jamming.png" alt="Jamming the Alice-Bob hop via a circular route."/>
 
-We suggest combining jamming and probing to overcome the dimensionality issue described above. In particular, the attack can jam all channels in a multi-channel hop except one, and then probe the remaining channel. In other words, while the attacker cannot influence how a routing node chooses a channel to forward a probe, it is possible to decrease the set of _suitable_ channels the node picks from.
+We suggest combining jamming and probing to overcome the dimensionality issue described above. In particular, the attacker can jam all channels in a multi-channel hop except one, and then probe the remaining channel. In other words, while the attacker cannot influence how a routing node chooses a channel to forward a probe, it is possible to decrease the set of _suitable_ channels the node picks from.
 
 Geometrically, jamming-enhanced probing boils down to revealing each channel individually. In the 3-dimensional case, the prober first reveals b_1, then b_2, and then b_3. Each balance is represented by a plane parallel to the corresponding axis. The intersection of three perpendicular planes is a single point representing the true balance vector.
 
@@ -186,7 +186,7 @@ Potential countermeasures may be divided into node-level policies (something a s
 
 In summary, we have introduced an enhanced probing technique for Lightning channels and confirmed using simulations that it reveals channel balances better and faster.
 
-More generally, the issue we've been discussing illustrates the dilemma for Lightning. As long as Lightning is a permissionless and privacy-focused (in particular, it uses onion routing), bad actors would be able to abuse it by mounting attacks on reliability (such as jamming) or privacy (such as probing). The key challenge in the development of the LN is to limit the negative effects of unwanted network activity while preserving the permissionless nature of the network. We hope this work helps advance the understanding of the relevant trade-offs and be a basis of future protocol improvements.
+More generally, the issue we've been discussing illustrates the dilemma for Lightning. As long as Lightning is permissionless and privacy-focused (in particular, it uses onion routing), bad actors would be able to abuse it by mounting attacks on reliability (such as jamming) or privacy (such as probing). The key challenge in the development of the LN is to limit the negative effects of unwanted network activity while preserving the permissionless nature of the network. We hope this work helps advance the understanding of the relevant trade-offs and be a basis of future protocol improvements.
 
-For more details, see the [full paper](https://eprint.iacr.org/2021/384) (to be presented at [Financial Cryptography 2022](https://fc22.ifca.ai/)). [Slides](https://docs.google.com/presentation/d/1IPZdpSVX2B636G6m4o66jQCk8RAO5HUy_HD_ITgR_-M/edit?usp=sharing) and a [video presentation](FOOBAR) (roughly based on this post) are also available.
+For more details, see the [full paper](https://eprint.iacr.org/2021/384) (to be presented at [Financial Cryptography 2022](https://fc22.ifca.ai/)). [Slides](https://docs.google.com/presentation/d/1IPZdpSVX2B636G6m4o66jQCk8RAO5HUy_HD_ITgR_-M/edit?usp=sharing) and a [video presentation](https://youtu.be/ZiD7NqQ1YZc) (roughly based on this post), and the [source code of the simulator](https://github.com/s-tikhomirov/ln-probing-simulator) are also available.
 
