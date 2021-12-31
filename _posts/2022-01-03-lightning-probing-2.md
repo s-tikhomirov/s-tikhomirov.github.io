@@ -51,7 +51,7 @@ The attacker (also referred to as the Prober) wants to learn remote channels bal
 
 The attacker's knowledge may be visualized as follows. The outer interval denotes the target channel. The star shows the true balance. The colored area is the set of all points where, according to the attacker's current knowledge, the balance may be. $b^l$ and $b^u$ are the current balance bounds.
 
-<img width="600" src="../images/lightning-probing-2/1dim.png" alt="The attacker's knowledge when probing one channel."/>
+<img width="400" src="../images/lightning-probing-2/1dim.png" alt="The attacker's knowledge when probing one channel."/>
 
 Initially, the colored area covers the whole interval. By making a series of probes, the attacker updates the balance estimates and shrinks the colored interval. Assuming that balances are equally likely to take any value between zero and the channel capacity, the optimal strategy is to divide the colored interval in half with every probe.
 
@@ -68,7 +68,7 @@ Note that while the prober cannot update _individual_ balance bounds, it does ge
 
 We propose a new geometrical model that describes probing in the general case, for any number of parallel channels. To introduce our model, let's use a two-dimensional example. Consider a two-channel hop with the capacities of both channels equal to $C$. It can be represented as a square with corners $(0,0)$, $(0,C)$, $(C,C)$, $(C,0)$.
 
-<img width="600" src="../images/lightning-probing-2/2dim-balance.png" alt="A geometrical representation of a two-channel hop."/>
+<img width="400" src="../images/lightning-probing-2/2dim-balance.png" alt="A geometrical representation of a two-channel hop."/>
 
 Each point within the square corresponds to a possible vector of channel balances. The star denotes the true balance point: the first channel has balance $b_1$, and the second channel has balance $b_2$.
 
@@ -90,7 +90,7 @@ Here is where our first contribution comes in. We suggest choosing each next pro
 
 The following figures illustrate the process of probing a 2-channel hop step by step. (We only go through the first four steps explicitly.)
 
-<img width="600" src="../images/lightning-probing-2/2dim-steps.png" alt="Probing a two-channel hop step by step."/>
+<img width="800" src="../images/lightning-probing-2/2dim-steps.png" alt="Probing a two-channel hop step by step."/>
 
 Note that at some point the colored area splits into two disjoint diagonally symmetric rectangles. This is a representation of the fact that balances can only be probed up to permutation, because the model assigns channels to axes randomly.
 
@@ -103,21 +103,21 @@ Now consider a question. Given enough probes, can the attacker probe any hop, wi
 
 Consider a 3-channel hop with equal-capacity channels.
 
-<img width="600" src="../images/lightning-probing-2/3dim.png" alt="Probing a three-channel hop with equal capacities."/>
+<img width="400" src="../images/lightning-probing-2/3dim.png" alt="Probing a three-channel hop with equal capacities."/>
 
 Analogously to the two-dimensional case, each probe now cuts a _cube_ (instead of a square) from the lower-left vertex of the larger _cube_ that represents the hop. The two bounds on $h$ correspond to two surfaces, each composed of three perpendicular faces of the respective cube. The true balance must be above the smaller (purple) surface representing the lower bound, and below the larger (orange) surface representing the upper bound.
 
 What happens when the attacker learn $h$ precisely? The two surfaces collapse into one:
 
-<img width="600" src="../images/lightning-probing-2/3dim-final.png" alt="A three-channel hop fully probed from one direction."/>
+<img width="400" src="../images/lightning-probing-2/3dim-final.png" alt="A three-channel hop fully probed from one direction."/>
 
 The balance must be somewhere _on_ the colored surface.
 
 Probes from the opposite direction produce a symmetrical surface, also composed of three perpendicular squares. The true balance must be somewhere on the intersection of these two surfaces. However, in the general case, two such _surfaces_ intersect along a _line_ composed of six intervals. The attacker cannot learn exactly where on this line the balance is! Compare it to the two-dimensional case, where instead of surfaces we had linear L-shapes, which neatly intersected at exactly two points, reflecting the true balance vector (modulo permutation).
 
-<img width="600" src="../images/lightning-probing-2/3dim-intersect.png" alt="Fully probing a three-channel hop doesn't reveal exact balances."/>
+<img width="400" src="../images/lightning-probing-2/3dim-intersect.png" alt="Fully probing a three-channel hop doesn't reveal exact balances."/>
 
-<img width="600" src="../images/lightning-probing-2/2dim-intersect.png" alt="Fully probing a two-channel hop reveals exact balances."/>
+<img width="400" src="../images/lightning-probing-2/2dim-intersect.png" alt="Fully probing a two-channel hop reveals exact balances."/>
 
 An intuitive interpretation of this difference could be as follows. There are only two directions that a channel can be probed in. Probing in each direction decreases the dimensionality by one. That is, if the hop in question has only one or two channels, the final result would only contain one or two points. In the 3-dimensional case, the best the attacker can achieve is a _line_, that is, a one-dimensional figure. In the 4-dimensional case, the end result would be some _surface_, in the 5-dimensional case -- some 3-dimensional _volume_, and so on.
 
@@ -140,7 +140,7 @@ We suggest combining jamming and probing to overcome the dimensionality issue de
 
 Geometrically, jamming-enhanced probing boils down to revealing each channel individually. In the 3-dimensional case, the prober first reveals $b_1$, then $b_2$, and then $b_3$. Each balance is represented by a plane parallel to the corresponding axis. The intersection of three perpendicular planes is a single point representing the true balance vector.
 
-<img width="600" src="../images/lightning-probing-2/3dim-enhanced.png" alt="The end result of jamming-enhanced probing a three-channel hop."/>
+<img width="400" src="../images/lightning-probing-2/3dim-enhanced.png" alt="The end result of jamming-enhanced probing a three-channel hop."/>
 
 To recap: our contributions are as follows. We introduce a new probing model that accurately describes the attacker's knowledge when probing multi-channel hops. We propose jamming-enhanced probing to overcome the limitation on information extraction in multi-channel hops. Finally, we suggest using an optimized algorithm (generalized binary search) to select probe amounts for multi-channel hops.
 
