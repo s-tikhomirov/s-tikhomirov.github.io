@@ -34,7 +34,10 @@ The Lightning Network (LN) is a layer-two protocol for fast bitcoin payments. It
 
 A payment channel is a cryptographic protocol for off-chain bitcoin payments between two parties. A useful mental model to visualize a channel is "beads on a string". The beads cannot leave the string, they can only move back and forth.
 
-<img src="../images/lightning-probing-2/channel-simple.png" alt="A payment channel between Alice and Bob with capacity of five coins."/>
+<img width="400" src="../images/lightning-probing-2/channel-simple.png" alt="A payment channel between Alice and Bob with capacity of five coins."/>
+<img width="600" src="../images/lightning-probing-2/channel-simple.png" alt="A payment channel between Alice and Bob with capacity of five coins."/>
+<img width="800" src="../images/lightning-probing-2/channel-simple.png" alt="A payment channel between Alice and Bob with capacity of five coins."/>
+<img width="1000" src="../images/lightning-probing-2/channel-simple.png" alt="A payment channel between Alice and Bob with capacity of five coins."/>
 
 The total number of coins in a channel is called its _capacity_, and the number of coins currently owned by Alice and Bob are their respective _balances_. The two balances sum up to the capacity, so we can infer one balance from the other. We define the _channel_ balance to be the balance of the node with alphabetically smaller name (in this example, that would be "Alice"). We refer to a pair of adjacent nodes together with all channels that they share as a _hop_.
 
