@@ -31,6 +31,8 @@ The total number of coins in a channel is called its _capacity_, and the number 
 
 Alice doesn't have to establish a direct channel to Charlie to send him payments. Instead, she can use a multi-hop path (in this example, via Bob). Multi-hop payments work as follows. Alice offers Bob one coin under the condition that he forwards one coin to Charlie. Bob forwards one coin to Charlie, who uses the payment secret known only to him to redeem the coin. Bob can then use the same secret to redeem the coin from Alice. Hence, one coin has effectively moved from Alice to Charlie.
 
+<img width="600" width="600" src="../images/lightning-probing-2/multi-hop.png" alt="A payment path allowing Alice to send one coin to Charlie via Bob."/>
+
 The key issue with this process is that Alice doesn't know in advance whether Bob has sufficient balance in the channel towards Charlie. If Alice tries to send another coin along the same path, the payment would fail. Therefore, Lightning follows the trial-and-error approach. The sender may have to make several payment attempts until one of them succeeds.
 
 As we will see, one can exploit the error reporting mechanism of the Lightning network in an attack called balance probing.
