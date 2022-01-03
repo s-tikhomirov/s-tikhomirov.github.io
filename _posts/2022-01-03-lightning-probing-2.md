@@ -4,15 +4,9 @@ title: Probing parallel channels in the Lightning network
 published: true
 ---
 
-# Intro
-
 In this post, we summarize [our paper](https://eprint.iacr.org/2021/384) on channel balance probing in the Lightning network. It supersedes our [earlier work](/lightning-probing/) on this topic.
-
 A video presentation based on this post:
-
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZiD7NqQ1YZc" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-
-
 First, we briefly introduce the Lightning network (LN) and the channel balance probing attack. Then, we propose an enhanced probing technique that allows an attacker to extract more private information faster. We run simulations based on real-world data and conclude that the proposed probing method is indeed better than prior art. Finally, we discuss potential countermeasures and their trade-offs.
 
 
