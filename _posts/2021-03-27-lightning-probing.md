@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Channel probing in the face of parallel channels
+title: [Outdated] Channel probing in the face of parallel channels
 published: true
 ---
+
+**This post is kept here for archival purposes. It is superseded by [this later post](/lightning-probing-2/).**
 
 The Lightning Network (LN) is a prominent Bitcoin scaling solution that uses payment channels. Channel probing is inference of supposedly non-public balances of honest users in the LN. Channel probing is a big threat to user privacy in the LN. An attacker might want to infer channel balances for several reasons: to spy on payments, to learn business operation details, to optimize other attacks (e.g., network split via jamming), etc.
 

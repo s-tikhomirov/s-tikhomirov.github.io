@@ -1,15 +1,12 @@
 ---
 layout: post
-title: Template
-published: false
+title: Probing parallel channels in the Lightning network
+published: true
 ---
-
-<!-- CHANGE PUBLISHED TO FALSE TO PUSH AS DRAFT -->
-<!-- CHANGE DATE BEFORE PUBLICATION -->
 
 # Intro
 
-In this post, we summarize [our paper](https://eprint.iacr.org/2021/384) on channel balance probing in the Lightning network.
+In this post, we summarize [our paper](https://eprint.iacr.org/2021/384) on channel balance probing in the Lightning network. It supersedes our [earlier work](/lightning-probing/) on this topic.
 
 A video presentation based on this post:
 
@@ -30,7 +27,7 @@ First, we briefly introduce the Lightning network (LN) and the channel balance p
 
 # Lightning Network 101
 
-The Lightning Network (LN) is a layer-two protocol for fast bitcoin payments. It is considered the major scaling solution for Bitcoin. As of December 2021, is consists of nearly 17 thousand nodes and nearly 78 thousand payment channels.
+The Lightning Network (LN) is a layer-two protocol for fast bitcoin payments. It is considered the major scaling solution for Bitcoin. As of January 2022, is consists of 17 thousand nodes and 79 thousand payment channels.
 
 A payment channel is a cryptographic protocol for off-chain bitcoin payments between two parties. A useful mental model to visualize a channel is "beads on a string". The beads cannot leave the string, they can only move back and forth.
 
@@ -38,7 +35,7 @@ A payment channel is a cryptographic protocol for off-chain bitcoin payments bet
 
 The total number of coins in a channel is called its _capacity_, and the number of coins currently owned by Alice and Bob are their respective _balances_. The two balances sum up to the capacity, so we can infer one balance from the other. We define the _channel_ balance to be the balance of the node with alphabetically smaller name (in this example, that would be "Alice"). We refer to a pair of adjacent nodes together with all channels that they share as a _hop_.
 
-Alice doesn't have to establish a direct channel to Charlie to send him payments. Instead, she can use a multi-hop path (in this example, via Bob). Multi-hop payments work as follows. Alice offers Bob one coin under the condition that he forwards one coin to Charlie. Bob forwards the coin to Charlie, who uses the payment secret known only to him to redeem the coin. Bob can then use the same secret to redeem the coin from Alice. Hence, one coin has effectively moved from Alice to Charlie.
+Alice doesn't have to establish a direct channel to Charlie to send him payments. Instead, she can use a multi-hop path (in this example, via Bob). Multi-hop payments work as follows. Alice offers Bob one coin under the condition that he forwards one coin to Charlie. Bob forwards one coin to Charlie, who uses the payment secret known only to him to redeem the coin. Bob can then use the same secret to redeem the coin from Alice. Hence, one coin has effectively moved from Alice to Charlie.
 
 The key issue with this process is that Alice doesn't know in advance whether Bob has sufficient balance in the channel towards Charlie. If Alice tries to send another coin along the same path, the payment would fail. Therefore, Lightning follows the trial-and-error approach. The sender may have to make several payment attempts until one of them succeeds.
 
@@ -72,19 +69,19 @@ We propose a new geometrical model that describes probing in the general case, f
 
 Each point within the square corresponds to a possible vector of channel balances. The star denotes the true balance point: the first channel has balance b_1, and the second channel has balance b_2.
 
-The attacker sends the first probe of amount a_1 that doesn't reach the destination.
+The attacker sends the first probe of amount a_1.
 
 <img width="600" src="../images/lightning-probing-2/2dim.png" alt="Probing a two-channel hop."/>
 
-This means that _all_ channel balances are less than the probe amount: b_1 < a_1 and b_2 < a_1. Geometrically, this means that the true balance is _inside_ the a_1-sided square that the probe "cuts" from the lower-left corner of the larger square. Now, the attacker sends another probe with amount a_2 that does reach the destination. This means that _at least one_ of the channels has sufficient balance: either b_1 > a_2 or b_2 > a_2. Geometrically, it means that the true balance is _outside_ of the a_2-sided square. As a result of there two probes, the attacker has obtained the upper and lower bounds that correspond geometrically to the colored L-shaped figure (the difference of two squares).
+The probe doesn't reach the destination, so the prober concludes that _all_ channel balances are less than the probe amount: b_1 < a_1 and b_2 < a_1. Geometrically, this means that the true balance is _inside_ the a_1-sided square that the probe "cuts" from the lower-left corner of the larger square. Now, the attacker sends another probe with amount a_2 that does reach the destination. This means that _at least one_ of the channels has sufficient balance: either b_1 > a_2 or b_2 > a_2. Geometrically, it means that the true balance is _outside_ of the a_2-sided square. As a result of there two probes, the attacker has obtained the upper and lower bounds that correspond geometrically to the colored L-shaped figure (the difference of two squares).
 
-What do these bounds bound, by the way? As mentioned before, the prober doesn't necessarily learn something about individual balances. Instead, it learns how much a hop can forward in the probe direction -- simply speaking, the maximum of the balances. We refer to this value as h = max(b_i). The analogous value in the opposite direction is denoted as g.
+What do these bounds bound, by the way? As mentioned before, the prober doesn't necessarily learn anything about individual balances. Instead, it learns how much a hop can forward in the probe direction – simply speaking, the maximum of the balances. We refer to this value as h = max(b_i). The analogous value in the opposite direction is denoted as g.
 
 Probes in the opposite direction have a similar representation in the geometrical model: instead of "cutting" squares from the lower-left corner from the larger square, they cut squares from the upper-right corner. Consider the state of probing after four probes have been done:
 
 <img width="600" src="../images/lightning-probing-2/2dim-full.png" alt="Attacker's knowledge after four probes for a two-channel hop."/>
 
-The attacker's knowledge is comprised of four values -- the lower and upper bounds on h and g. The bounds on h -- h^l and h^u -- define an L-shape "looking north-east", whereas g^l and g^u define an analogous L-shape "looking south-west". The intersection of these shapes defines the attacker's knowledge: the smaller the area of the resulting figure, the more precisely the prober knows there the true balances are.
+The attacker's knowledge is comprised of four values – the lower and upper bounds on h and g. The bounds on h – h^l and h^u – define an L-shape "looking north-east", whereas g^l and g^u define an analogous L-shape "looking south-west". The intersection of these shapes defines the attacker's knowledge: the smaller the area of the resulting figure, the more precisely the prober knows there the true balances are.
 
 Here is where our first contribution comes in. We suggest choosing each next probe amount such as the probe cuts the colored figure in half by area. Prior algorithms chose the probe amount as the mid-point between the current balance estimates, which may be sub-optimal in the multi-channel case. Instead, our generalized approach is optimized for hops with any number of channels.
 
@@ -119,7 +116,7 @@ Probes from the opposite direction produce a symmetrical surface, also composed 
 
 <img width="400" src="../images/lightning-probing-2/2dim-intersect.png" alt="Fully probing a two-channel hop reveals exact balances."/>
 
-An intuitive interpretation of this difference could be as follows. There are only two directions that a channel can be probed in. Probing in each direction decreases the dimensionality by one. That is, if the hop in question has only one or two channels, the final result would only contain one or two points. In the 3-dimensional case, the best the attacker can achieve is a _line_, that is, a one-dimensional figure. In the 4-dimensional case, the end result would be some _surface_, in the 5-dimensional case -- some 3-dimensional _volume_, and so on.
+An intuitive interpretation of this difference could be as follows. There are only two directions that a channel can be probed in. Probing in each direction decreases the dimensionality by one. That is, if the hop in question has only one or two channels, the final result would only contain one or two points. In the 3-dimensional case, the best the attacker can achieve is a _line_, that is, a one-dimensional figure. In the 4-dimensional case, the end result would be some _surface_, in the 5-dimensional case – some 3-dimensional _volume_, and so on.
 
 (There is another scenario when a multi-channel hop may not always be probed fully. Can you guess what the reason is? If you want the answer, see Appendix B in the paper.)
 
@@ -132,7 +129,7 @@ We suggest combining jamming with probing to extract more information from multi
 
 Jamming is a type of denial-of-service attacks on Lightning channels. The attacker sends a payment to itself (either via a circular route or simply to another node that it also controls) and deliberately delays finalizing the payment. As a result, the funds along the route are left "in-flight" and are unavailable for other payments.
 
-There are two types of jamming (by capacity and by slots), discussing them is outside the scope of this post (please refer to the paper and references therein). For our purposes, it's sufficient to understand that an attacker can temporarily disable a victim channel.
+There are two types of jamming (by capacity and by slots), discussing them is outside the scope of this post (please refer to the Background section of the paper and references therein). For our purposes, it's sufficient to understand that an attacker can temporarily disable a victim channel.
 
 <img width="600" src="../images/lightning-probing-2/jamming.png" alt="Jamming the Alice-Bob hop via a circular route."/>
 
@@ -149,9 +146,9 @@ The question now is: how do we measure the benefits that our proposed improvemen
 
 # Evaluation
 
-We evaluate our approach using our own simulator written in Python. We capture a snapshot of the network using our own Lightning node and assign balances to channels uniformly at random. We then pick 20 target hops with a given number of channels (from 1 to 5) and probe them.
+We evaluate our approach using [our own simulator](https://github.com/s-tikhomirov/ln-probing-simulator) written in Python. We capture a snapshot of the network using our own Lightning node and assign balances to channels uniformly at random. We then pick 20 target hops with a given number of channels (from 1 to 5) and probe them in the simulator.
 
-We use two metrics to access the success of the attack: information gain and probing speed. Information gain reflects the share (from 0 to 1) of uncertainty on balances in target hops that the attacker was able to resolve. (By uncertainty we mean the binary logarithm of the number of points contained in the figure describing the attackers knowledge after the final probing step.) Probing speed shows how much information the prober gets per message sent (a message is either a probe of a jam).
+We use two metrics to access the success of the attack: information gain and probing speed. Information gain reflects the share (from 0 to 1) of uncertainty about channel balances in target hops that the attacker was able to resolve. (By uncertainty we mean the binary logarithm of the number of points contained in the final figure describing the attackers knowledge.) Probing speed shows how much information the prober gets per message sent (a message is either a probe of a jam).
 
 We alter the probing algorithm in three ways:
 
@@ -159,7 +156,7 @@ We alter the probing algorithm in three ways:
 - Optimized amount selection vs simple binary search
 - Direct vs remote probing
 
-In direct probing, the attacker established a channel to the target hop directly. In the real network, this requires on-chain fee but, on the other hand, all probes reach the target hop. In remote probing, the attacker sends probes along multi-channel paths. This allows for amortizing the cost of channel openings along many target hops but some probes are wasted due to insufficient balances in intermediary hops.
+In direct probing, the attacker established a channel to the target hop directly. In the real network, this requires on-chain fee but, on the other hand, all probes reach the target hop. In remote probing, the attacker sends probes along multi-channel paths. This allows for amortizing the cost of channel openings across many target hops but some probes are wasted due to insufficient balances in intermediary hops.
 
 For each alteration of the probing algorithm, we run the simulation 100 times and average the results.
 
@@ -168,25 +165,25 @@ For each alteration of the probing algorithm, we run the simulation 100 times an
 For information gain, we observe that:
 1. for non-enhanced probing (the left graph), the information gain decreases as the number of channels increases (due to the dimensionality issue);
 2. jamming-enhanced probing (the right graph) overcomes this limitation, achieving nearly full information extraction for multi-channel hops;
-3. all else equal, remote probing performs slightly worse than direct probing due to routing issues.
+3. all else equal, remote probing performs slightly worse than direct probing.
 
 <img width="800" src="../images/lightning-probing-2/speed_snapshot.png" alt="Probing speed graphs."/>
 
 For probing speed, we observe that:
 1. Direct probing with optimized amount selection (the left graph, blue line) achieves nearly perfect probing speed of 1 bit / message;
 2. Remote probing is always slightly slower than direct probing;
-3. Optimized amount selection is always better than non-optimized amount selection.
+3. Optimized amount selection is always faster than non-optimized amount selection.
 
-In summary: we confirm that jamming-enhanced probing yields more balance information, and that optimized amount selection allows for doing it faster.
+In summary: we confirm that jamming-enhanced probing yields more balance information, and that optimized amount selection allows for faster probing.
 
-Potential countermeasures may be divided into node-level policies (something a single node can apply) or network-level protocol changes. On the node level, popular routing nodes may batch payments (so that payments in the opposite directions cancel each other out), split payments among their parallel channels, establish unannounced channels in parallel to public ones, or drop or forge error messages (which would, however, decrease reliability). Measures on the network level largely intersect with [potential anti-jamming proposals](https://blog.bitmex.com/preventing-channel-jamming/).
+Potential countermeasures may be divided into node-level policies (something a single node can apply) or network-level protocol changes. On the node level, popular routing nodes may batch payments (so that payments in the opposite directions cancel each other out), split payments among their parallel channels, establish unannounced channels in parallel to public ones, or drop or forge error messages (which would, however, decrease reliability). Measures on the network level largely intersect with [potential anti-jamming proposals](https://blog.bitmex.com/preventing-channel-jamming/), for instance, upfront fees for both successful and failed payment attempts.
 
 
 # Conclusion
 
 In summary, we have introduced an enhanced probing technique for Lightning channels and confirmed using simulations that it reveals channel balances better and faster.
 
-More generally, the issue we've been discussing illustrates the dilemma for Lightning. As long as Lightning is permissionless and privacy-focused (in particular, it uses onion routing), bad actors would be able to abuse it by mounting attacks on reliability (such as jamming) or privacy (such as probing). The key challenge in the development of the LN is to limit the negative effects of unwanted network activity while preserving the permissionless nature of the network. We hope this work helps advance the understanding of the relevant trade-offs and be a basis of future protocol improvements.
+More generally, the issue we've been discussing illustrates the dilemma for Lightning. As long as Lightning is permissionless and privacy-focused (in particular, it uses onion routing), bad actors would be able to abuse it by mounting attacks on reliability (such as jamming) or privacy (such as probing). The key challenge for LN development is to limit the negative effects of unwanted network activity while preserving the permissionless nature of the network. We hope this work helps advance the understanding of the relevant trade-offs and be a basis of future protocol improvements.
 
-For more details, see the [full paper](https://eprint.iacr.org/2021/384) (to be presented at [Financial Cryptography 2022](https://fc22.ifca.ai/)). [Slides](https://docs.google.com/presentation/d/1IPZdpSVX2B636G6m4o66jQCk8RAO5HUy_HD_ITgR_-M/edit?usp=sharing) and a [video presentation](https://youtu.be/ZiD7NqQ1YZc) (roughly based on this post), and the [source code of the simulator](https://github.com/s-tikhomirov/ln-probing-simulator) are also available.
+For more details, see the [full paper](https://eprint.iacr.org/2021/384) (to be presented at [Financial Cryptography 2022](https://fc22.ifca.ai/)). [Slides](https://docs.google.com/presentation/d/1IPZdpSVX2B636G6m4o66jQCk8RAO5HUy_HD_ITgR_-M/edit?usp=sharing), a [video presentation](https://youtu.be/ZiD7NqQ1YZc) (roughly based on this post), and the [source code of the simulator](https://github.com/s-tikhomirov/ln-probing-simulator) are also available.
 
