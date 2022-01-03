@@ -21,7 +21,7 @@ First, we briefly introduce the Lightning network (LN) and the channel balance p
 
 # Lightning Network 101
 
-The Lightning Network (LN) is a layer-two protocol for fast bitcoin payments. It is considered the major scaling solution for Bitcoin. As of January 2022, is consists of 17 thousand nodes and 79 thousand payment channels.
+The Lightning Network (LN) is a layer-two protocol for fast bitcoin payments. It is considered the major scaling solution for Bitcoin. As of January 2022, its publicly announced part consists of 17 thousand nodes and 79 thousand payment channels.
 
 A payment channel is a cryptographic protocol for off-chain bitcoin payments between two parties. A useful mental model to visualize a channel is "beads on a string". The beads cannot leave the string, they can only move back and forth.
 
