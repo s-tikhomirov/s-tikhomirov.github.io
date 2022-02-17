@@ -75,6 +75,7 @@ Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCf
 
 ## English
 
+* 2022-02-16: [Sergei Tikhomirov and Lightning privacy](https://podcast.chaincode.com/2022/02/17/sergei-tikhomirov.html) (Chaincode Podcast)
 * 2021-07-09: [Sergei Tikhomirov on Lightning Network Privacy](https://www.monerotalk.live/sergei-tikhomirov-on-lightning-network-privacy) (Monero Talk)
 * 2020-04-21: [Researchers Surface Privacy Vulnerabilities in Bitcoin Lightning Network Payments](https://www.coindesk.com/researchers-surface-privacy-vulnerabilities-in-bitcoin-lightning-network-payments) (Coindesk)
 * 2020-04-17: [Researchers Highlight Privacy Issues With Lightning Network](https://cointelegraph.com/news/researchers-highlight-privacy-issues-with-lightning-network) (Cointelegraph)
