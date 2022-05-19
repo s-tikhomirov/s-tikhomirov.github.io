@@ -85,6 +85,7 @@ Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCf
 
 ## Russian
 
+* 2022-05-19: [YouTube-канал Crypto Lodes — Безопасность и приватность Биткоина](https://youtu.be/acKNimO7bKw)
 * 2021-10-04: [YouTube-канал Forklog — Биткоин и Lightning Network: прогноз успеха и приватность](https://youtu.be/OyHCOxaRg0U)
 * 2021-11-18: [Подкаст "После прочтения" о книге "Карта культурных различий"](https://youtu.be/f4LG3tWvNVg)
 * 2021-03-22: [YouTube-канал Forklog — Биткоин на максималках — онлайн-конференция](https://youtu.be/URbMDmM9094?t=11329)
