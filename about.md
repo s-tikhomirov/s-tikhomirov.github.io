@@ -24,7 +24,7 @@ For bio in Russian see below.
 
 ## 2021
 
-* A. Biryukov, G. Naumenko, **S. Tikhomirov**. [Analysis and Probing of Parallel Channels in the Lightning Network](https://eprint.iacr.org/2021/384). Presented at the [Financial Cryptography and Data Security 2022](https://fc22.ifca.ai/) on 3 May 2021 ([pre-recorded video](https://www.youtube.com/watch?v=1dDC2VYTVdw), [slides](https://docs.google.com/presentation/d/1m0MH7RqlYmqVCrXWrML7zL6cKVfo9uWYCtVhFSVEA7Y/edit?usp=sharing)).
+* A. Biryukov, G. Naumenko, **S. Tikhomirov**. [Analysis and Probing of Parallel Channels in the Lightning Network](https://eprint.iacr.org/2021/384). Presented at the [Financial Cryptography and Data Security 2022](https://fc22.ifca.ai/) on 3 May 2022 ([pre-recorded video](https://www.youtube.com/watch?v=1dDC2VYTVdw), [slides](https://docs.google.com/presentation/d/1m0MH7RqlYmqVCrXWrML7zL6cKVfo9uWYCtVhFSVEA7Y/edit?usp=sharing)).
 
 * R. Pickhardt, **S. Tikhomirov**, A. Biryukov, M. Nowostawski. [Security and Privacy of Lightning Network Payments with Uncertain Channel Balances](https://arxiv.org/abs/2103.08576).
 
@@ -34,7 +34,7 @@ For bio in Russian see below.
 
 * **S. Tikhomirov**, R. Pickhardt, A. Biryukov, M. Nowostawski. [Probing Channel Balances in the Lightning Network](https://arxiv.org/abs/2004.00333).
 
-* **S. Tikhomirov**, P. Moreno-Sanchez, M. Maffei. [A Quantitative Analysis of Security, Anonymity and Scalability for the Lightning Network](https://eprint.iacr.org/2020/303). Presented at the [IEEE Security and Privacy on the Blockchain workshop](https://ieeesb.org/) (affiliated with EuroS&P) on 7 September 2019 ([video](https://www.youtube.com/watch?v=hslL3aNm8Vg)).
+* **S. Tikhomirov**, P. Moreno-Sanchez, M. Maffei. [A Quantitative Analysis of Security, Anonymity and Scalability for the Lightning Network](https://eprint.iacr.org/2020/303). Presented at the [IEEE Security and Privacy on the Blockchain workshop](https://ieeesb.org/) (affiliated with EuroS&P) on 7 September 2020 ([video](https://www.youtube.com/watch?v=hslL3aNm8Vg)).
 
 ## 2019
 
