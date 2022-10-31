@@ -22,7 +22,7 @@ For bio in Russian see below.
 
 # Publications
 
-# 2022
+## 2022
 
 * C. Shikhelman, **S. Tikhomirov**. [Unjamming Lightning: A Systematic Approach](https://eprint.iacr.org/2022/1454).
 
@@ -34,7 +34,7 @@ For bio in Russian see below.
 
 ## 2020
 
-* S. Tikhomirov. [Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424) (doctoral thesis).
+* S. Tikhomirov. [Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424) (doctoral thesis). Defended on 17 September 2020 ([slides](https://docs.google.com/presentation/d/1olqh-w25ONJcn069Zedm0_n-4A8jm-zJXdUd7DCGNaY/edit?usp=sharing), [video](https://youtu.be/Rf5r8hyZJnQ)).
 
 * **S. Tikhomirov**, R. Pickhardt, A. Biryukov, M. Nowostawski. [Probing Channel Balances in the Lightning Network](https://arxiv.org/abs/2004.00333).
 
