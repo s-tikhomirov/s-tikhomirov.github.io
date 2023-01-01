@@ -5,7 +5,7 @@ title: About
 
 # Bio
 
-I am a postdoctoral researcher at [Chaincode Labs](https://chaincode.com/).
+In 2021-2022, I was a postdoc at [Chaincode Labs](https://chaincode.com/). I co-authored a [paper](https://eprint.iacr.org/2022/1454) on addressing a long-standing denial-of-service attack on the Bitcoin's Lightning Network.
 
 Previously, I was a [postdoc](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) and a PhD student at the [University of Luxembourg](http://wwwen.uni.lu/) in the group of Professor Alex Biryukov. I defended my PhD thesis "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" in September 2020. I have been closely following the blockchain space since late 2013. My main research interests are privacy and anonymity in Bitcoin and off-chain protocols such as the Lightning Network. Earlier, I was researching secure development practices on the Ethereum platform and domain-specific languages for smart contracts.
 
@@ -114,7 +114,7 @@ Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCf
 
 # Bio in Russian
 
-Я постдок-исследователь в [Chaincode Labs](https://chaincode.com/).
+В 2021-2022 я работал постдоком в [Chaincode Labs](https://chaincode.com/).
 
 До этого я был [постдоком](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) и аспирантом [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и протоколах второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
 
