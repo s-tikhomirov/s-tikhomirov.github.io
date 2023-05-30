@@ -3,24 +3,79 @@ layout: page
 title: About
 ---
 
-# Bio
+Hi, I'm Sergei!
 
-In 2021-2022, I was a postdoc at [Chaincode Labs](https://chaincode.com/). I co-authored a [paper](https://eprint.iacr.org/2022/1454) on addressing a long-standing denial-of-service attack on the Bitcoin's Lightning Network.
+I am a researcher interested in security, privacy, and scalability of blockchains.
 
-Previously, I was a [postdoc](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) and a PhD student at the [University of Luxembourg](http://wwwen.uni.lu/) in the group of Professor Alex Biryukov. I defended my PhD thesis "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" in September 2020. I have been closely following the blockchain space since late 2013. My main research interests are privacy and anonymity in Bitcoin and off-chain protocols such as the Lightning Network. Earlier, I was researching secure development practices on the Ethereum platform and domain-specific languages for smart contracts.
+My mission is to contribute to projects that embrace user sovereignty as a core principle, while remaining pragmatic when it comes to its real-world implementation.
 
-In 2017, I started [Basic Block Radio](https://basicblockradio.com/) (Базовый Блок) – a technology-focused Russian-language podcast about the blockchain space. We recorded more than 100 episodes, covering projects (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) and events (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
+The multi-faceted design space of blockchain technologies has fascinated me since 2013.
+I have contributed to peer-reviewed papers on a range of topics that include:
 
-I received my MA in applied maths from [CMC MSU](https://cs.msu.ru/en) in 2013. In 2013 – 2016, I was a researcher on code vulnerabilities and static analysis at [SmartDec](https://smartdec.net/) and an author / translator at [BitNovosti](http://bitnovosti.com/author/aab5420/).
+- vulnerability detection in Ethereum smart contracts;
+- P2P-level transaction clustering in Bitcoin, Monero, and Zcash;
+- denial-of-service and privacy attacks in the Lightning Network.
 
-See also: my [newsletter](https://sergei.substack.com/), [projects on Github](https://github.com/s-tikhomirov), [academic papers](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [public talks](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) and the [accompanying slides](https://www.slideshare.net/SergeiTikhomirov), [questions and answers on Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [books I read](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
+I did my PhD at the University of Luxembourg ([CryptoLUX group](https://cryptolux.org/index.php/Home)), where I defended [my thesis](https://hdl.handle.net/10993/44424) ([presentation video](https://youtu.be/Rf5r8hyZJnQ)) in 2020.
+I later worked as a postdoctoral researcher at [Chaincode Labs](https://chaincode.com/).
+I also co-host Basic Block Radio – a deeply technical blockchain podcast in Russian with [170+ episodes](https://basicblockradio.com/all-episodes/) so far.
 
-I was on a program committee of: [Cryblock-2020](http://www.cryblock.org/committees.html) ([archived](https://web.archive.org/web/20200617130714/http://www.cryblock.org/committees.html)).
 
-For bio in Russian see below.
+# My research journey
+
+## Before 2016: Vulnerability detection
+
+In 2013, I got my Masters degree in applied mathematics and systems programming from the Moscow State University ([Faculty of Computational Mathematics and Cybernetics](https://cs.msu.ru/en)).
+
+In 2013–2016, I was a full-time information security analyst at [SmartDec](https://smartdec.net/).
+My tasks included aggregating information about best practices in various programming languages and formalizing dangerous coding patters for our vulnerability detection tool.
+
+I fell into the Bitcoin rabbit hole in late 2013.
+In my spare time throughout 2014–2016, I wrote for a popular Russian-language cryptocurrency website [Bitnovosti](https://bitnovosti.io/author/aab5420/), and helped film a [documentary](https://youtu.be/xJYwh9lw4CM) about cryptocurrency adoption in Europe.
+
+## 2016–2017: Bugs in Ethereum contracts
+
+In 2016, I started a PhD program at the University of Luxembourg.
+My first research topic was the security of Solidity smart contracts.
+The main results of that period were Findel and Smartcheck.
+
+[Findel](https://orbilu.uni.lu/handle/10993/30975) is a functional domain-specific language (DSL) for financial contracts on top of Solidity.
+The key idea is to think of a contract as a tree-like structure of elementary operations.
+The leaves correspond to monetary sums, and the nodes reflect the conditions under which the payments are made.
+The benefit of a functional DSL, compared to a Turing-complete language, is that it's easier to analyze and write securely.
+
+[Smartcheck](http://hdl.handle.net/10993/35862) was among the first papers on automated security analysis for Solidity code.
+We proposed a comprehensive classification of bugs in Solidity contracts known at the time, including the infamous re-entrancy vulnerability that destroyed The DAO in 2016.
+We developed a tool that detects said vulnerabilities, and test it on a large set of real-world contracts.
+
+## 2018: P2P-level deanonymization in Bitcoin and friends
+
+In 2018, I studied the P2P layer of Bitcoin and privacy-focused cryptocurrencies (Zcash, Dash, and Monero).
+The research question was: what information can a well-connected adversary extract from the P2P layer?
+In [the resulting paper](https://orbilu.uni.lu/handle/10993/39724), we described a method by which an attacker can cluster transaction that had originated from the same node based solely on their P2P propagation patterns.
+We successfully clustered our own transactions using patched node software running on geographically distributed servers.
+
+## 2019–2022: Lightning Network's security and privacy
+
+In 2019, I became interested in scaling blockchains with second-layer protocols and payment channel networks in particular.
+I decided to focus on the Lightning Network – the major L2 effort in the Bitcoin ecosystem.
+During this time, I studied two somewhat related issues: probing and jamming.
+
+Channel balance probing allows for estimating a remote channel balance by sending unsolicited fake payments.
+This should not be possible but is hard to discourage, as failed payment attempts are free.
+We [introduced](https://eprint.iacr.org/2021/384) a mathematical model to quantify the amount of information an attacker learns, and applied it to the previously unstudied case of parallel channels.
+
+Channel jamming is a denial-of-service attack where an adversary blocks victim's channels by initiating payments but not finalizing them.
+Like in jamming, the absence of fees for failed payments make attack costs trivial.
+We [proposed](https://eprint.iacr.org/2022/1454) a new fee scheme that includes upfront unconditional fees, and measured its effectiveness in a simulation.
+
+I also [contributed](https://github.com/lnbook/lnbook/issues/400) to a [chapter on security and privacy](https://github.com/lnbook/lnbook/blob/develop/16_security_privacy_ln.asciidoc) for "[Mastering the Lightning Network](https://www.oreilly.com/library/view/mastering-the-lightning/9781492054856/)".
 
 
 # Publications
+
+The list of publications with citation counts etc is on [Google Scholar](https://scholar.google.com/citations?user=8w9I9uUAAAAJ&hl=en).
+My talks and conference presentations are on [my YouTube channel](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA/).
 
 ## 2022
 
@@ -63,24 +118,13 @@ For bio in Russian see below.
 * **С. Тихомиров**, Я. Александров, Е. Марченко, Л. Сафин. Поиск закладок в программном обеспечении (**S. Tikhomirov**, Y. Alexandrov, E. Marchenko, L. Safin. Finding undocumented features in programs). «Защита информации. Инсайд» №3, 2016 ([abstract](http://www.inside-zi.ru/pages/3_2016/20.html))
 
 
-# Projects
-
-* 2020..2021: co-authored a [chapter on security and privacy](https://github.com/lnbook/lnbook/blob/develop/16_security_privacy_ln.asciidoc) ([pull-request](https://github.com/lnbook/lnbook/issues/400)) for "[Mastering the Lightning Network](https://www.oreilly.com/library/view/mastering-the-lightning/9781492054856/)".
-* 2020-04-04..05: [Lightning Hacksprint April 2020](https://wiki.fulmo.org/index.php?title=Lightning_HackSprint): [getroutevia](https://github.com/s-tikhomirov/getroutevia) c-lightning plugin - [presentation](https://youtu.be/LSVOPb4stfM?t=3091), [short interview in the warm-up stream](https://youtu.be/lBsUWishiEs?t=155)
-* 2019-04-08..09: [Bolt-a-thon](https://boltathon.com/): [Bletz-Vote project](https://youtu.be/6M1UWTnGepk?t=3590)
-
-
-# Talks
-
-Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA/).
-
-
 # Media appearances
 
 ## English
 
+* 2022-11-23: [Clara and Sergei – solving Lightning jamming](https://podcast.chaincode.com/2022/11/23/clara-sergei-lightning-jamming.html) (The Chaincode Podcast)
 * 2022-06-21: [The Lightning Network Will Checkmate the World - Sergei Tikhomirov](https://bitcointv.com/w/rqQCeEjnhtYmDHoH6hfbrs) (Connect The World)
-* 2022-02-16: [Sergei Tikhomirov and Lightning privacy](https://podcast.chaincode.com/2022/02/17/sergei-tikhomirov.html) (Chaincode Podcast)
+* 2022-02-16: [Sergei Tikhomirov and Lightning privacy](https://podcast.chaincode.com/2022/02/17/sergei-tikhomirov.html) (The Chaincode Podcast)
 * 2021-07-09: [Sergei Tikhomirov on Lightning Network Privacy](https://www.monerotalk.live/sergei-tikhomirov-on-lightning-network-privacy) (Monero Talk)
 * 2020-04-21: [Researchers Surface Privacy Vulnerabilities in Bitcoin Lightning Network Payments](https://www.coindesk.com/researchers-surface-privacy-vulnerabilities-in-bitcoin-lightning-network-payments) (Coindesk)
 * 2020-04-17: [Researchers Highlight Privacy Issues With Lightning Network](https://cointelegraph.com/news/researchers-highlight-privacy-issues-with-lightning-network) (Cointelegraph)
@@ -110,18 +154,3 @@ Most of my talks are on [my YouTube channel](https://www.youtube.com/channel/UCf
 * 2017-12-06: [Журнал "Популярная механика", декабрь 2017, о будущем блокчейн-технологий](https://www.popmech.ru/technologies/397902-ethereum-platforma-dlya-blokcheyn-sistem-i-eyo-sozdatel-vitalik-buterin/)
 * 2017-10-01: [Подкаст "Pro Bitcoin", выпуск 62](http://podcast.probitcoin.ru/e/%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA-62%D1%81%D0%BF%D0%B5%D1%86%D0%B3%D0%BE%D1%81%D1%82%D1%8C%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9/)
 * 2016-12-18: [Подкаст "DevZen", выпуск 123](http://devzen.ru/episode-0123/)
-
-
-# Bio in Russian
-
-В 2021-2022 я работал постдоком в [Chaincode Labs](https://chaincode.com/).
-
-До этого я был [постдоком](https://www.cryptolux.org/index.php/Sergei_Tikhomirov) и аспирантом [университета Люксембурга](http://wwwen.uni.lu/) в группе профессора Алекса Бирюкова. Я защитил диссертацию "[Security and Privacy of Blockchain Protocols and Applications](https://hdl.handle.net/10993/44424)" в сентябре 2020 года. Я слежу за блокчейн-индустрией с конца 2013 года. Мои научные интересы – приватность и анонимность в Bitcoin и протоколах второго уровня (Lightning Network). Мои ранние работы повящены практикам безопасной разработки на платформе Ethereum и предметно-ориентированные языки для умных контрактов.
-
-В 2017 году я основал подкаст «[Базовый Блок](https://basicblockradio.com/)» – русскоязычный подкаст о блокчейн-индустрии с фокусом на технологии. Мы записали более 100 выпусков, освещая проекты (Bitcoin, Ethereum, Polkadot, Cosmos, Chainlink...) и конференции (Devcon, Consensus, Web3 Summit, Baltic Honeybadger, The Lightning conference...).
-
-Я окончил [ВМК МГУ](https://cs.msu.ru/) в 2013 году. В 2013 – 2016 годах я занимался исследованиями в области статического анализа кода в [SmartDec](https://smartdec.net/), а также писал и переводил статьи на [Bitnovosti](http://bitnovosti.com/author/aab5420/).
-
-См. также: моя [рассылка](https://sergei.substack.com/), [проект на Github](https://github.com/s-tikhomirov), [научные статьи](https://scholar.google.lu/citations?hl=en&user=8w9I9uUAAAAJ), [публичные выступления](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA) и [слайды к ним](https://www.slideshare.net/SergeiTikhomirov), [вопросы и ответы на Stack Exchange](https://stackexchange.com/users/7581752/sergei-tikhomirov?tab=accounts), [книжная полка](https://www.goodreads.com/user/show/86128188-sergei-tikhomirov).
-
-Я участвовал в комитетах конференций: [Cryblock-2020](http://www.cryblock.org/committees.html) ([archived](https://web.archive.org/web/20200617130714/http://www.cryblock.org/committees.html)).
