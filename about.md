@@ -7,7 +7,9 @@ Hi, I'm Sergei!
 
 I am a researcher interested in security, privacy, and scalability of blockchains.
 
-My mission is to contribute to projects that embrace user sovereignty as a core principle, while remaining pragmatic when it comes to its real-world implementation.
+My mission is to advance individual financial sovereignty by combining deep research with pragmatic implementation.
+
+[My CV (updated 2023](/assets/Tikhomirov-CV-2023.pdf).
 
 The multi-faceted design space of blockchain technologies has fascinated me since 2013.
 I have contributed to peer-reviewed papers on a range of topics that include:
