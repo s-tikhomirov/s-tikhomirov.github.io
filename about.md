@@ -46,7 +46,7 @@ The benefit of a functional DSL, compared to a Turing-complete language, is that
 
 [Smartcheck](http://hdl.handle.net/10993/35862) was among the first papers on automated security analysis for Solidity code.
 We proposed a comprehensive classification of bugs in Solidity contracts known at the time, including the infamous re-entrancy vulnerability that destroyed The DAO in 2016.
-We developed a tool that detects said vulnerabilities, and test it on a large set of real-world contracts.
+We developed a tool that detects said vulnerabilities, and tested it on a large set of real-world contracts.
 
 ## 2018: P2P-level deanonymization in Bitcoin and friends
 
@@ -61,12 +61,12 @@ In 2019, I became interested in scaling blockchains with second-layer protocols 
 I decided to focus on the Lightning Network – the major L2 effort in the Bitcoin ecosystem.
 During this time, I studied two somewhat related issues: probing and jamming.
 
-Channel balance probing allows for estimating a remote channel balance by sending unsolicited fake payments.
-This should not be possible but is hard to discourage, as failed payment attempts are free.
+Balance probing allows for estimating a remote channel balance by sending unsolicited fake payments.
+This behavior should not be possible but is hard to discourage, as failed payment attempts are free.
 We [introduced](https://eprint.iacr.org/2021/384) a mathematical model to quantify the amount of information an attacker learns, and applied it to the previously unstudied case of parallel channels.
 
 Channel jamming is a denial-of-service attack where an adversary blocks victim's channels by initiating payments but not finalizing them.
-Like in jamming, the absence of fees for failed payments make attack costs trivial.
+Similar to jamming, the absence of fees for failed payments make attack costs trivial.
 We [proposed](https://eprint.iacr.org/2022/1454) a new fee scheme that includes upfront unconditional fees, and measured its effectiveness in a simulation.
 
 I also [contributed](https://github.com/lnbook/lnbook/issues/400) to a [chapter on security and privacy](https://github.com/lnbook/lnbook/blob/develop/16_security_privacy_ln.asciidoc) for "[Mastering the Lightning Network](https://www.oreilly.com/library/view/mastering-the-lightning/9781492054856/)".
@@ -74,7 +74,7 @@ I also [contributed](https://github.com/lnbook/lnbook/issues/400) to a [chapter 
 
 # Publications
 
-The list of publications with citation counts etc is on [Google Scholar](https://scholar.google.com/citations?user=8w9I9uUAAAAJ&hl=en).
+My publications with citation counts etc are listed on [Google Scholar](https://scholar.google.com/citations?user=8w9I9uUAAAAJ&hl=en).
 My talks and conference presentations are on [my YouTube channel](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA/).
 
 ## 2022
