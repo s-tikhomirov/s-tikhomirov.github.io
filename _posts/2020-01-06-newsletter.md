@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Newsletter
-published: true
+published: false
 ---
 
 I've launched a newsletter: [sergei.substack.com](https://sergei.substack.com/).
