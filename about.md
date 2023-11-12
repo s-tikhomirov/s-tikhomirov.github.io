@@ -7,7 +7,7 @@ Hi, I'm Sergei!
 
 I am a researcher interested in security, privacy, and scalability of blockchains.
 
-My mission is to advance individual financial sovereignty by combining deep research with pragmatic implementation.
+Since September 2023, I am a protocol research engineer at [Status](https://status.app/), working on incentivization of [Waku](https://waku.org/).
 
 [My CV (updated 2023)](/assets/Tikhomirov-CV-2023.pdf).
 
