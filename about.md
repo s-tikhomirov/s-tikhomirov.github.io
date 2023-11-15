@@ -136,6 +136,7 @@ My talks and conference presentations are on [my YouTube channel](https://www.yo
 
 ## Russian
 
+* 2023-11-14: [Подкаст "Между скобок" — Блокчейн как распределённая система](https://www.youtube.com/watch?v=KtrDKuj1hWU)
 * 2022-06-29: [YouTube-канал Forklog о новостях Lightning Network](https://www.youtube.com/watch?v=ZljIU4G2WnI)
 * 2022-05-19: [YouTube-канал Crypto Lodes — Безопасность и приватность Биткоина](https://youtu.be/acKNimO7bKw)
 * 2021-10-04: [YouTube-канал Forklog — Биткоин и Lightning Network: прогноз успеха и приватность](https://youtu.be/OyHCOxaRg0U)
