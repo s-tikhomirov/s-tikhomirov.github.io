@@ -5,11 +5,11 @@ title: About
 
 Hi, I'm Sergei!
 
-I am a researcher interested in security, privacy, and scalability of blockchains.
+I am a researcher interested in security, privacy, and scalability of blockchains and related technologies.
 
-Since September 2023, I am a protocol research engineer at [Status](https://status.app/), working on incentivization of [Waku](https://waku.org/).
+Since September 2023, I am a protocol research engineer at [Status](https://status.app/), [working](https://github.com/waku-org/research/blob/add-incentivization-doc/incentivization.md) on incentivization of [Waku](https://waku.org/).
 
-[My CV (updated 2023)](/assets/Tikhomirov-CV-2023.pdf).
+[My CV (updated 2024)](/assets/Tikhomirov-CV.pdf).
 
 The multi-faceted design space of blockchain technologies has fascinated me since 2013.
 I have contributed to peer-reviewed papers on a range of topics that include:
