@@ -79,6 +79,11 @@ I also [contributed](https://github.com/lnbook/lnbook/issues/400) to a [chapter 
 My publications with citation counts etc are listed on [Google Scholar](https://scholar.google.com/citations?user=8w9I9uUAAAAJ&hl=en).
 My talks and conference presentations are on [my YouTube channel](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA/).
 
+## 2024
+
+* H. Cornelius, **S. Tikhomirov**, A. Revuelta, S. P. Vivier, A. Challani. [The Waku Network as Infrastructure for dApps](/assets/papers/waku-poster-paper.pdf). Presented at [DLT 2024](https://dlt2024.di.unito.it/) on 15 May 2024.
+* A. Revuelta, **S. Tikhomirov**, A. Challani, H. Cornelius, S. P. Vivier. [Message Latency in Waku Relay with Rate Limiting Nullifiers](/assets/papers/waku-latency.pdf). To be presented at [IEEE DAPPS 2024](https://ieeedapps.com/) in July 2024.
+
 ## 2022
 
 * C. Shikhelman, **S. Tikhomirov**. [Unjamming Lightning: A Systematic Approach](https://eprint.iacr.org/2022/1454).
