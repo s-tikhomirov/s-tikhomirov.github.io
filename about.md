@@ -129,6 +129,7 @@ My talks and conference presentations are on [my YouTube channel](https://www.yo
 
 ## English
 
+* 2024-05-22: [How R&D can solve critical privacy challenges](https://www.youtube.com/watch?v=AWgwuwmMTcM) (Web3 Privacy Now meetup, c-base, Berlin)
 * 2022-11-23: [Clara and Sergei – solving Lightning jamming](https://podcast.chaincode.com/2022/11/23/clara-sergei-lightning-jamming.html) (The Chaincode Podcast)
 * 2022-06-21: [The Lightning Network Will Checkmate the World - Sergei Tikhomirov](https://bitcointv.com/w/rqQCeEjnhtYmDHoH6hfbrs) (Connect The World)
 * 2022-02-16: [Sergei Tikhomirov and Lightning privacy](https://podcast.chaincode.com/2022/02/17/sergei-tikhomirov.html) (The Chaincode Podcast)
