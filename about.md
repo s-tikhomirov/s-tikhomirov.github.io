@@ -129,6 +129,8 @@ My talks and conference presentations are on [my YouTube channel](https://www.yo
 
 ## English
 
+* 2024-06-04: Waku: a generalized P2P communication protocol with ZK-based rate limiting (ETH Belgrade Talk and Workshop)
+* 2024-05-24: [Secure communications with Waku](https://www.youtube.com/watch?v=n-N43givo6g) (ETHBerlin04 Workshop)
 * 2024-05-22: [How R&D can solve critical privacy challenges](https://www.youtube.com/watch?v=AWgwuwmMTcM) (Web3 Privacy Now meetup, c-base, Berlin)
 * 2022-11-23: [Clara and Sergei – solving Lightning jamming](https://podcast.chaincode.com/2022/11/23/clara-sergei-lightning-jamming.html) (The Chaincode Podcast)
 * 2022-06-21: [The Lightning Network Will Checkmate the World - Sergei Tikhomirov](https://bitcointv.com/w/rqQCeEjnhtYmDHoH6hfbrs) (Connect The World)
