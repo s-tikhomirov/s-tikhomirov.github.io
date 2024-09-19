@@ -7,7 +7,10 @@ Hi, I'm Sergei!
 
 I am a researcher interested in security, privacy, and scalability of blockchains and related technologies.
 
-Since September 2023, I am a protocol research engineer at [Status](https://status.app/), [working](https://github.com/waku-org/research/blob/add-incentivization-doc/incentivization.md) on incentivization of [Waku](https://waku.org/).
+Since September 2023, I am a protocol research engineer at [Waku](https://waku.org/).
+I work on incentivization for P2P communication protocols.
+Waku is part of [Institute of Free Technology](https://free.technology/) (IFT),
+perhaps better known as supporters of [Status](https://status.app/), a decentralized messaging app.
 
 [My CV (updated 2024)](/assets/Tikhomirov-CV.pdf).
 
