@@ -155,6 +155,7 @@ My talks and conference presentations are on [my YouTube channel](https://www.yo
 * 2021-03-22: [YouTube-канал Forklog — Биткоин на максималках — онлайн-конференция](https://youtu.be/URbMDmM9094?t=11329)
 * 2021-03-04: [Вастрик-клуб AMA — Всё, что вы хотели знать о криптовалютах, но боялись спросить](https://www.youtube.com/watch?v=qES9S1QnM_Y)
 * 2020-05-26: [Подкаст "IT Way", выпуск 26 — Что такое блокчейн?](https://www.youtube.com/watch?v=STPV_hUkrXc)
+* 2020-05-10: [Халвинг биткоина: цена против технологии — онлайн-конференция ForkLog](https://www.youtube.com/live/oOUWFpYMugw?feature=shared&t=11073)
 * 2020-04-23: [YouTube-канал Forklog — Поясни за крипту / Сообщество крипторазработчиков и медиа](https://www.youtube.com/watch?v=EXXqc5DhHo0)
 * 2020-04-21: [Подкаст "SDCast", выпуск 115](https://sdcast.ksdaemon.ru/2020/04/sdcast-115/)
 * 2020-03-15: [Подкаст "DevZen", выпуск 279](https://devzen.ru/episode-0279/)
