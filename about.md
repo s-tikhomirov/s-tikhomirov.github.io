@@ -12,7 +12,7 @@ I work on incentivization for P2P communication protocols.
 Waku is part of [Institute of Free Technology](https://free.technology/) (IFT),
 perhaps better known as supporters of [Status](https://status.app/), a decentralized messaging app.
 
-[My CV (updated 2024)](/assets/Tikhomirov-CV.pdf).
+[My CV (updated 2025)](/assets/Tikhomirov-CV.pdf).
 
 The multi-faceted design space of blockchain technologies has fascinated me since 2013.
 I have contributed to peer-reviewed papers on a range of topics that include:
