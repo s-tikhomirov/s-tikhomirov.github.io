@@ -25,6 +25,15 @@ I did my PhD at the University of Luxembourg ([CryptoLUX group](https://cryptolu
 I later worked as a postdoctoral researcher at [Chaincode Labs](https://chaincode.com/).
 I also co-host Basic Block Radio – a deeply technical blockchain podcast in Russian with [170+ episodes](https://basicblockradio.com/all-episodes/) so far.
 
+# Short bio in third person (updated 2025)
+
+Sergei is a blockchain researcher and protocol engineer specializing in security, privacy, and scalability.
+His work encompasses a broad range of topics within the blockchain space, including smart contract security, P2P network privacy, and protocol design.
+Currently, he is developing incentivized communication protocols at Waku, leveraging libp2p and zero-knowledge technologies.
+Sergei's previous experience includes contributions to Bitcoin and Lightning at Chaincode Labs 
+and doctoral research at the University of Luxembourg, resulting in peer-reviewed publications on Ethereum security and network attacks.
+He maintains a close watch on the progress of rollup and zero-knowledge solutions, viewing them as essential for blockchain scaling while upholding decentralization.
+Furthermore, he co-hosts Basic Block Radio, a technical podcast exploring topics like rollups, ZK, and MEV.
 
 # My research journey
 
