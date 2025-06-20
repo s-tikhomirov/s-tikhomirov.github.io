@@ -142,7 +142,7 @@ My talks and conference presentations are on [my YouTube channel](https://www.yo
 ## English
 
 * 2025-06-12: Waku Service Marketplace (Protocol Berg v2, Berlin) - [slides](/assets/slides/Waku_Service_Marketplace_Protocol_Berg_2025-06-12_Slides.pdf)
-* 2025-06-11: Waku: decentralized and privacy-preserving communication for Web3 applications (d/acc Discovery Day, Berlin) - [slides](/assets/slides/Waku_dacc_day_Berlin_2025-06-11_slides.pdf)
+* 2025-06-11: Waku: decentralized and privacy-preserving communication for Web3 applications (d/acc Discovery Day, Berlin) - [slides](/assets/slides/Waku_dacc_day_Berlin_2025-06-11_slides.pdf), [video (timecode 5:16:01)](https://x.com/dacc_kitchen/status/1932720358173651022)
 * 2024-06-04: Waku: a generalized P2P communication protocol with ZK-based rate limiting (ETH Belgrade Talk and Workshop)
 * 2024-05-24: [Secure communications with Waku](https://www.youtube.com/watch?v=n-N43givo6g) (ETHBerlin04 Workshop)
 * 2024-05-22: [How R&D can solve critical privacy challenges](https://www.youtube.com/watch?v=AWgwuwmMTcM) (Web3 Privacy Now meetup, c-base, Berlin)
