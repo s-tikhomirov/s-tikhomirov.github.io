@@ -142,7 +142,7 @@ My talks and conference presentations are on [my YouTube channel](https://www.yo
 ## English
 
 * 2025-08-08: [Proof-of-concept Waku incentivization](https://www.youtube.com/watch?v=PCRZ68Ht44M) (IFT Town Hall)
-* 2025-06-12: [Waku Service Marketplace](https://watch.protocol.berlin/65a90bf47932ebe436ba9351/watch?session=68541b2c90bd41297b2b604a) (Protocol Berg v2, Berlin) - [slides](/assets/slides/Waku_Service_Marketplace_Protocol_Berg_2025-06-12_Slides.pdf)
+* 2025-06-12: [Waku Service Marketplace](https://watch.protocol.berlin/65a90bf47932ebe436ba9351/watch?session=68541b2c90bd41297b2b604a) (Protocol Berg v2, Berlin) - [slides](/assets/slides/Waku_Service_Marketplace_Protocol_Berg_2025-06-12_Slides.pdf), [video](https://watch.protocol.berlin/65a90bf47932ebe436ba9351/watch?session=68541b2c90bd41297b2b604a)
 * 2025-06-11: Waku: decentralized and privacy-preserving communication for Web3 applications (d/acc Discovery Day, Berlin) - [slides](/assets/slides/Waku_dacc_day_Berlin_2025-06-11_slides.pdf), [video (timecode 5:16:01)](https://x.com/dacc_kitchen/status/1932720358173651022)
 * 2024-06-04: Waku: a generalized P2P communication protocol with ZK-based rate limiting (ETH Belgrade Talk and Workshop)
 * 2024-05-24: [Secure communications with Waku](https://www.youtube.com/watch?v=n-N43givo6g) (ETHBerlin04 Workshop)
