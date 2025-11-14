@@ -7,10 +7,8 @@ Hi, I'm Sergei!
 
 I am a researcher interested in security, privacy, and scalability of blockchains and related technologies.
 
-Since September 2023, I am a protocol research engineer at [Waku](https://waku.org/).
+Since 2023, I am a protocol research engineer at [Logos](https://logos.co/) Messaging (previously known as [Waku](https://waku.org/)).
 I work on incentivization for P2P communication protocols.
-Waku is part of [Institute of Free Technology](https://free.technology/) (IFT),
-perhaps better known as supporters of [Status](https://status.app/), a decentralized messaging app.
 
 [My CV (updated 2025)](/assets/Tikhomirov-CV.pdf).
 
