@@ -7,8 +7,9 @@ Hi, I'm Sergei!
 
 I am a researcher interested in security, privacy, and scalability of blockchains and related technologies.
 
-Since 2023, I am a protocol research engineer at [Logos](https://logos.co/) Messaging (previously known as [Waku](https://waku.org/)).
-I work on incentivization for P2P communication protocols.
+In 2023-2026, I was a protocol research engineer at [Institute of Free Technology (IFT)](https://free.technology/) / [Logos](https://logos.co/),
+where I developed an off-chain [payment streams protocol](https://github.com/logos-co/lez-payment-streams) on top of Logos Execution Zone
+for service incentivizaiton in the Logos P2P network.
 
 [My CV (updated 2025)](/assets/Tikhomirov-CV.pdf).
 
@@ -89,10 +90,14 @@ I also [contributed](https://github.com/lnbook/lnbook/issues/400) to a [chapter 
 My publications with citation counts etc are listed on [Google Scholar](https://scholar.google.com/citations?user=8w9I9uUAAAAJ&hl=en).
 My talks and conference presentations are on [my YouTube channel](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA/).
 
+## 2026
+
+* Uğur Şen, **Sergei Tikhomirov**, Sylvain Delhomme, Nadeem Bhati, Cyprien Grau. [Rate-Limiting Nullifiers for Gasless Sequencer Admission in Ethereum Layer-2 Rollups](https://eprint.iacr.org/2026/1666).
+
 ## 2024
 
 * H. Cornelius, **S. Tikhomirov**, A. Revuelta, S. P. Vivier, A. Challani. [The Waku Network as Infrastructure for dApps](/assets/papers/waku-poster-paper.pdf). Presented at [DLT 2024](https://dlt2024.di.unito.it/) on 15 May 2024.
-* A. Revuelta, **S. Tikhomirov**, A. Challani, H. Cornelius, S. P. Vivier. [Message Latency in Waku Relay with Rate Limiting Nullifiers](/assets/papers/waku-latency.pdf). To be presented at [IEEE DAPPS 2024](https://ieeedapps.com/) in July 2024.
+* A. Revuelta, **S. Tikhomirov**, A. Challani, H. Cornelius, S. P. Vivier. [Message Latency in Waku Relay with Rate Limiting Nullifiers](/assets/papers/waku-latency.pdf). Presented at [IEEE DAPPS 2024](https://ieeedapps.com/) in July 2024.
 
 ## 2022
 
