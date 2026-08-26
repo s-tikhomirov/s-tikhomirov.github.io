@@ -31,6 +31,8 @@ The benefit of a functional DSL, compared to a Turing-complete language, is that
 We proposed a comprehensive classification of bugs in Solidity contracts known at the time, including the infamous re-entrancy vulnerability that destroyed The DAO in 2016.
 We developed a tool that detects said vulnerabilities, and tested it on a large set of real-world contracts.
 
+In 2017 I started [Basic Block Radio](/podcast/) to explain this work in Russian.
+
 ## 2018: P2P-level deanonymization in Bitcoin and friends
 
 In 2018, I studied the P2P layer of Bitcoin and privacy-focused cryptocurrencies (Zcash, Dash, and Monero).
