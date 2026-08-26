@@ -7,10 +7,9 @@ Hi, I'm Sergei!
 
 I am a researcher interested in security, privacy, and scalability of blockchains and related technologies.
 
-Since September 2023, I am a protocol research engineer at [Waku](https://waku.org/).
-I work on incentivization for P2P communication protocols.
-Waku is part of [Institute of Free Technology](https://free.technology/) (IFT),
-perhaps better known as supporters of [Status](https://status.app/), a decentralized messaging app.
+In 2023-2026, I was a protocol research engineer at [Institute of Free Technology (IFT)](https://free.technology/) / [Logos](https://logos.co/),
+where I developed an off-chain [payment streams protocol](https://github.com/logos-co/lez-payment-streams) on top of Logos Execution Zone
+for service incentivizaiton in the Logos P2P network.
 
 [My CV (updated 2025)](/assets/Tikhomirov-CV.pdf).
 
@@ -91,10 +90,14 @@ I also [contributed](https://github.com/lnbook/lnbook/issues/400) to a [chapter 
 My publications with citation counts etc are listed on [Google Scholar](https://scholar.google.com/citations?user=8w9I9uUAAAAJ&hl=en).
 My talks and conference presentations are on [my YouTube channel](https://www.youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA/).
 
+## 2026
+
+* Uğur Şen, **Sergei Tikhomirov**, Sylvain Delhomme, Nadeem Bhati, Cyprien Grau. [Rate-Limiting Nullifiers for Gasless Sequencer Admission in Ethereum Layer-2 Rollups](https://eprint.iacr.org/2026/1666).
+
 ## 2024
 
 * H. Cornelius, **S. Tikhomirov**, A. Revuelta, S. P. Vivier, A. Challani. [The Waku Network as Infrastructure for dApps](/assets/papers/waku-poster-paper.pdf). Presented at [DLT 2024](https://dlt2024.di.unito.it/) on 15 May 2024.
-* A. Revuelta, **S. Tikhomirov**, A. Challani, H. Cornelius, S. P. Vivier. [Message Latency in Waku Relay with Rate Limiting Nullifiers](/assets/papers/waku-latency.pdf). To be presented at [IEEE DAPPS 2024](https://ieeedapps.com/) in July 2024.
+* A. Revuelta, **S. Tikhomirov**, A. Challani, H. Cornelius, S. P. Vivier. [Message Latency in Waku Relay with Rate Limiting Nullifiers](/assets/papers/waku-latency.pdf). Presented at [IEEE DAPPS 2024](https://ieeedapps.com/) in July 2024.
 
 ## 2022
 
@@ -141,8 +144,9 @@ My talks and conference presentations are on [my YouTube channel](https://www.yo
 
 ## English
 
-* 2025-06-12: Waku Service Marketplace (Protocol Berg v2, Berlin) - [slides](/assets/slides/Waku_Service_Marketplace_Protocol_Berg_2025-06-12_Slides.pdf)
-* 2025-06-11: Waku: decentralized and privacy-preserving communication for Web3 applications (d/acc Discovery Day, Berlin) - [slides](/assets/slides/Waku_dacc_day_Berlin_2025-06-11_slides.pdf)
+* 2025-08-08: [Proof-of-concept Waku incentivization](https://www.youtube.com/watch?v=PCRZ68Ht44M) (IFT Town Hall)
+* 2025-06-12: [Waku Service Marketplace](https://watch.protocol.berlin/65a90bf47932ebe436ba9351/watch?session=68541b2c90bd41297b2b604a) (Protocol Berg v2, Berlin) - [slides](/assets/slides/Waku_Service_Marketplace_Protocol_Berg_2025-06-12_Slides.pdf), [video](https://watch.protocol.berlin/65a90bf47932ebe436ba9351/watch?session=68541b2c90bd41297b2b604a)
+* 2025-06-11: Waku: decentralized and privacy-preserving communication for Web3 applications (d/acc Discovery Day, Berlin) - [slides](/assets/slides/Waku_dacc_day_Berlin_2025-06-11_slides.pdf), [video (timecode 5:16:01)](https://x.com/dacc_kitchen/status/1932720358173651022)
 * 2024-06-04: Waku: a generalized P2P communication protocol with ZK-based rate limiting (ETH Belgrade Talk and Workshop)
 * 2024-05-24: [Secure communications with Waku](https://www.youtube.com/watch?v=n-N43givo6g) (ETHBerlin04 Workshop)
 * 2024-05-22: [How R&D can solve critical privacy challenges](https://www.youtube.com/watch?v=AWgwuwmMTcM) (Web3 Privacy Now meetup, c-base, Berlin)
