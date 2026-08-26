@@ -20,7 +20,7 @@ I am a researcher interested in security, privacy, and scalability of blockchain
 
 In 2023-2026, I was a protocol research engineer at [Institute of Free Technology (IFT)](https://free.technology/) / [Logos](https://logos.co/),
 where I developed an off-chain [payment streams protocol](https://github.com/logos-co/lez-payment-streams) on top of Logos Execution Zone
-for service incentivizaiton in the Logos P2P network.
+for service incentivization in the Logos P2P network.
 
 [My CV (updated 2025)](/assets/Tikhomirov-CV.pdf).
 
@@ -35,12 +35,12 @@ I did my PhD at the University of Luxembourg ([CryptoLUX group](https://cryptolu
 I later worked as a postdoctoral researcher at [Chaincode Labs](https://chaincode.com/).
 I also co-host Basic Block Radio – a deeply technical blockchain podcast in Russian with [170+ episodes](https://basicblockradio.com/all-episodes/) so far.
 
-# Short bio in third person (updated 2025)
+# Short bio in third person
 
 Sergei is a blockchain researcher and protocol engineer specializing in security, privacy, and scalability.
 His work encompasses a broad range of topics within the blockchain space, including smart contract security, P2P network privacy, and protocol design.
-Currently, he is developing incentivized communication protocols at Waku, leveraging libp2p and zero-knowledge technologies.
-Sergei's previous experience includes contributions to Bitcoin and Lightning at Chaincode Labs 
+From 2023 to 2026 he was a protocol research engineer at the Institute of Free Technology (IFT) / Logos, where he developed an off-chain payment streams protocol on top of Logos Execution Zone for service incentivization in the Logos P2P network.
+Sergei's previous experience includes contributions to Bitcoin and Lightning at Chaincode Labs
 and doctoral research at the University of Luxembourg, resulting in peer-reviewed publications on Ethereum security and network attacks.
 He maintains a close watch on the progress of rollup and zero-knowledge solutions, viewing them as essential for blockchain scaling while upholding decentralization.
 Furthermore, he co-hosts Basic Block Radio, a technical podcast exploring topics like rollups, ZK, and MEV.
@@ -130,22 +130,21 @@ My talks and conference presentations are on [my YouTube channel](https://www.yo
 
 ## 2019
 
-* A. Biruykov, **S. Tikhomirov**. [Deanonymization and linkability of cryptocurrency transactions based on network analysis](http://hdl.handle.net/10993/39724) ([PDF](/assets/papers/deanonymization-and-linkability.pdf), [slides](/assets/papers/deanonymization-and-linkability-slides.pdf), [video](https://www.youtube.com/watch?v=XXO3FBqwwO8)). Presented at the [4th IEEE European Symposium on Security and Privacy (EuroS&P)](https://www.ieee-security.org/TC/EuroSP2019/) on 17 June 2019.
+* A. Biryukov, **S. Tikhomirov**. [Deanonymization and linkability of cryptocurrency transactions based on network analysis](http://hdl.handle.net/10993/39724) ([PDF](/assets/papers/deanonymization-and-linkability.pdf), [slides](/assets/papers/deanonymization-and-linkability-slides.pdf), [video](https://www.youtube.com/watch?v=XXO3FBqwwO8)). Presented at the [4th IEEE European Symposium on Security and Privacy (EuroS&P)](https://www.ieee-security.org/TC/EuroSP2019/) on 17 June 2019.
 
-* A. Biruykov, **S. Tikhomirov**. [Security and Privacy of Mobile Wallet Users in Bitcoin, Dash, Monero, and Zcash](http://hdl.handle.net/10993/39729
-) ([PDF](/assets/papers/mobile-wallets.pdf)). In [Pervasive and Mobile Computing](https://www.sciencedirect.com/science/article/pii/S1574119218307181), special issue on blockchain technologies.
+* A. Biryukov, **S. Tikhomirov**. [Security and Privacy of Mobile Wallet Users in Bitcoin, Dash, Monero, and Zcash](http://hdl.handle.net/10993/39729) ([PDF](/assets/papers/mobile-wallets.pdf)). In [Pervasive and Mobile Computing](https://www.sciencedirect.com/science/article/pii/S1574119218307181), special issue on blockchain technologies.
 
-* A. Biruykov, **S. Tikhomirov**. [Transaction Clustering Using Network Traffic Analysis for Bitcoin and Derived Blockchains](http://hdl.handle.net/10993/39728) ([PDF](/assets/papers/transaction-clustering.pdf), [slides](/assets/papers/transaction-clustering-slides.pdf)). Presented at the [2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock)](http://www.cryblock.org/) on 29 April 2019.
+* A. Biryukov, **S. Tikhomirov**. [Transaction Clustering Using Network Traffic Analysis for Bitcoin and Derived Blockchains](http://hdl.handle.net/10993/39728) ([PDF](/assets/papers/transaction-clustering.pdf), [slides](/assets/papers/transaction-clustering-slides.pdf)). Presented at the [2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock)](http://www.cryblock.org/) on 29 April 2019.
 
 ## 2018
 * **S. Tikhomirov**, E. Voskresenskaya, I. Ivanitskiy, R. Takhaviev, E. Marchenko and Y. Aleksandrov. [SmartCheck: Static Analysis of Ethereum Smart Contracts](http://hdl.handle.net/10993/35862) ([PDF](/assets/papers/smartcheck.pdf), [slides](https://www.slideshare.net/SergeiTikhomirov/smartcheck-static-analysis-of-ethereum-smart-contracts), [video](https://www.youtube.com/watch?v=FBMI6VAESWo)). Presented at the [1st International Workshop on Emerging Trends in Software Engineering for Blockchain](http://www.agilegroup.eu/wetseb2018/) on 27 May 2018.
 
-* A. Biruykov, D. Khovratovich, **S. Tikhomirov**. [Privacy-preserving KYC on Ethereum](http://hdl.handle.net/10993/35915) ([PDF](/assets/papers/kyc-blockchain.pdf), [slides](https://www.slideshare.net/SergeiTikhomirov/privacy-preserving-kyc-on-ethereum), [video](https://www.youtube.com/watch?v=-pw_v1DQTyc)). Presented at the [1st ERCIM Blockchain Workshop](https://easychair.org/cfp/ERCIMBlockchain2018) on 9 May 2018.
+* A. Biryukov, D. Khovratovich, **S. Tikhomirov**. [Privacy-preserving KYC on Ethereum](http://hdl.handle.net/10993/35915) ([PDF](/assets/papers/kyc-blockchain.pdf), [slides](https://www.slideshare.net/SergeiTikhomirov/privacy-preserving-kyc-on-ethereum), [video](https://www.youtube.com/watch?v=-pw_v1DQTyc)). Presented at the [1st ERCIM Blockchain Workshop](https://easychair.org/cfp/ERCIMBlockchain2018) on 9 May 2018.
 
 ## 2017
 * **S. Tikhomirov**. [Ethereum: State of knowledge and research perspectives](https://hdl.handle.net/10993/32468) ([PDF](/assets/papers/ethereum-sok.pdf), [slides](https://www.slideshare.net/SergeiTikhomirov/ethereum-state-of-knowledge-and-research-perspectives), [video](https://youtu.be/Mvp9Rz4c3MY)). Presented at [the 10th International Symposium on Foundations & Practice of Security](http://fps2017.loria.fr/) on 24 October 2017.
 
-* A. Biruykov, D. Khovratovich, **S. Tikhomirov**. [Findel: Secure Derivative Contracts for Ethereum](https://hdl.handle.net/10993/30975) ([PDF](/assets/papers/findel.pdf), [slides](https://www.slideshare.net/SergeiTikhomirov/findel-secure-derivative-contracts-for-ethereum), [video](https://youtu.be/D4sa9U2HXMQ)). Presented at the [1st Workshop on Trusted Smart Contracts](http://fc17.ifca.ai/wtsc/index.html) on 7 April 2017.
+* A. Biryukov, D. Khovratovich, **S. Tikhomirov**. [Findel: Secure Derivative Contracts for Ethereum](https://hdl.handle.net/10993/30975) ([PDF](/assets/papers/findel.pdf), [slides](https://www.slideshare.net/SergeiTikhomirov/findel-secure-derivative-contracts-for-ethereum), [video](https://youtu.be/D4sa9U2HXMQ)). Presented at the [1st Workshop on Trusted Smart Contracts](http://fc17.ifca.ai/wtsc/index.html) on 7 April 2017.
 
 ## 2016
 * **С. Тихомиров**, Я. Александров, Е. Марченко, Л. Сафин. Поиск закладок в программном обеспечении (**S. Tikhomirov**, Y. Alexandrov, E. Marchenko, L. Safin. Finding undocumented features in programs). «Защита информации. Инсайд» №3, 2016 ([abstract](http://www.inside-zi.ru/pages/3_2016/20.html))

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How the Lightning network works - Part 1
+title: How the Lightning network works - Part 2
 published: false
 ---
 
