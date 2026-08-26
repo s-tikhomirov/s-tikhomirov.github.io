@@ -25,9 +25,8 @@ Affiliations:
 * [SmartDec](https://smartdec.net/), information security analyst, 2013–2016
 * [MSU](https://cs.msu.ru/en), 2008–2013
 
-I co-host [Basic Block Radio](https://basicblockradio.com/), a long-running technical podcast in Russian.
-It started in 2017, during my PhD, as a way to explain the research I was doing, and grew into long-form interviews with protocol researchers, core developers, and founders.
-[Longer account](/podcast/).
+I co-host [Basic Block Radio](/podcast/), a long-running technical podcast in Russian.
+We make long-form interviews with protocol researchers, core developers, and founders.
 
 [Research journey](/research-journey/), a longer account.
 
