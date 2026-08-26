@@ -2,10 +2,11 @@
 
 Personal homepage and blog, hosted on GitHub Pages with the Minima 2.5.1 theme.
 
-The site has four public surfaces. Home is identity, the research journey, and the third-person bio.
+The site has four public surfaces. Home is a short landing page.
 Publications is the paper list.
 Talks is media and conference appearances.
 Writing is the post list.
+`/research-journey/` and `/bio/` are linked from Home.
 
 Live site: https://s-tikhomirov.github.io/
 
