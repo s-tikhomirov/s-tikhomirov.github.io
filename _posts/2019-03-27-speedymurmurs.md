@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SpeedyMurmurs&#58; applying friend-to-friend routing to payments
+title: "SpeedyMurmurs: applying friend-to-friend routing to payments"
 published: true
 ---
 

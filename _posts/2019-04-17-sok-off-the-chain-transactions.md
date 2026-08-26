@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SoK&#58; Off the chain transactions
+title: "SoK: Off the chain transactions"
 published: true
 ---
 

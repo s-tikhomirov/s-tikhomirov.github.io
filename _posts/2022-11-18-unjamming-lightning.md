@@ -10,4 +10,4 @@ Our efforts have resulted in a [paper](https://eprint.iacr.org/2022/1454) where 
 
 I've written a post summarizing our findings for the Chaincode Research blog:
 
-https://research.chaincode.com/2022/11/15/unjamming-lightning/
+<https://research.chaincode.com/2022/11/15/unjamming-lightning/>

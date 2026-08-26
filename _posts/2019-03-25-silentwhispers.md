@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SilentWhispers&#58; routing in credit networks
+title: "SilentWhispers: routing in credit networks"
 published: true
 ---
 

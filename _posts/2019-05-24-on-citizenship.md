@@ -104,4 +104,13 @@ P.S. That is not to say that totally open borders would bring only benefits (tho
 And I'm not talking about locals [losing their jobs](https://www.youtube.com/watch?v=toL1tXrLA1c) which they only had because of protectionist policies of their government.
 A very interesting question to ponder is whether free migration will lead to everyone moving into a handful of the most economically developed cities and whether and to which extent that would degrade the quality of living there...
 
+# Comments
+
+Copied from comments on this post (2021) via Disqus.
+
+- Kiri11, 2021-12-11.
+  "Will free migration will lead to everyone moving into a handful of the most economically developed cities and whether and to which extent that would degrade the quality of living there?" This won't happen. Not everyone is USA wants to move to New York even if they have no restrictions. Not everyone in Russia wants to move to Moscow, even if people already in Moscow think otherwise. If people in Moscow build a wall and decide that only the ones born in Moscow can live there, they will only make things worse for themselves. The city is beautiful exactly BECAUSE so many smart and hard working people move there all the time. But they would still do it if they could because people are stupid. This is a self-balancing system: if a city becomes too crowded/expensive, people would stop moving in.
+- Kiri11, 2021-12-11.
+  Free movement will not happen because it only bothers immigrants and they can't vote. As soon as they become citizens, they stop caring about this and enjoy their new freedom.
+
 
