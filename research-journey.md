@@ -31,7 +31,7 @@ The benefit of a functional DSL, compared to a Turing-complete language, is that
 We proposed a comprehensive classification of bugs in Solidity contracts known at the time, including the infamous re-entrancy vulnerability that destroyed The DAO in 2016.
 We developed a tool that detects said vulnerabilities, and tested it on a large set of real-world contracts.
 
-In 2017 I started [Basic Block Radio](/podcast/) to explain this work in Russian.
+In 2017 I started [Basic Block Radio](/podcast/) to explain blockchain research topics in Russian.
 
 ## 2018: P2P-level deanonymization in Bitcoin and friends
 
@@ -68,5 +68,6 @@ Funds accrue in proportion to elapsed time, so streams stay lightweight on-chain
 
 I specified and reviewed an implementation of the Rate-Limiting Nullifiers (RLN) [membership contract](https://lip.logos.co/messaging/core/raw/rln-contract.html) on the Linea rollup.
 
-I co-authored [The Waku Network as Infrastructure for dApps](/assets/papers/waku-poster-paper.pdf) and [Message Latency in Waku Relay with Rate Limiting Nullifiers](/assets/papers/waku-latency.pdf) on Waku, later rebranded as Logos Messaging.
-I also co-authored a paper on Status Network, a rollup with gasless transaction admission that uses RLN against spam: [Rate-Limiting Nullifiers for Gasless Sequencer Admission in Ethereum Layer-2 Rollups](/assets/papers/rln-gasless-sequencer-admission.pdf).
+I co-authored work on Waku, later rebranded as Logos Messaging.
+We [presented](/assets/papers/waku-poster-paper.pdf) it as infrastructure for dApps and [measured](/assets/papers/waku-latency.pdf) message latency in Waku Relay with Rate Limiting Nullifiers.
+We [described](/assets/papers/rln-gasless-sequencer-admission.pdf) Status Network, a rollup with gasless transaction admission that uses RLN against spam.
