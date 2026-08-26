@@ -5,6 +5,17 @@ title: About
 
 Hi, I'm Sergei!
 
+# Contacts
+
+- Email [sergey.s.tikhomirov@gmail.com](mailto:sergey.s.tikhomirov@gmail.com)
+- GitHub [s-tikhomirov](https://github.com/s-tikhomirov)
+- LinkedIn [sergeitikhomirov](https://www.linkedin.com/in/sergeitikhomirov)
+- RSS [/feed.xml](/feed.xml)
+- Telegram [s_tikhomirov](https://t.me/s_tikhomirov)
+- Twitter [serg_tikhomirov](https://www.twitter.com/serg_tikhomirov)
+- Stack Overflow [sergei-tikhomirov](https://stackoverflow.com/users/5752262/sergei-tikhomirov)
+- YouTube [channel](https://youtube.com/channel/UCfo-qSso2IhRvuJj3AUEwBA/)
+
 I am a researcher interested in security, privacy, and scalability of blockchains and related technologies.
 
 In 2023-2026, I was a protocol research engineer at [Institute of Free Technology (IFT)](https://free.technology/) / [Logos](https://logos.co/),
