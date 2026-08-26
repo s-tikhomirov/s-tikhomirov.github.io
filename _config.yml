@@ -8,7 +8,10 @@ permalink: /:title/
 theme: minima
 
 header_pages:
-  - about.md
+  - index.md
+  - publications.md
+  - talks.md
+  - writing.md
 
 show_excerpts: true
 

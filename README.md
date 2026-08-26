@@ -2,8 +2,10 @@
 
 Personal homepage and blog, hosted on GitHub Pages with the Minima 2.5.1 theme.
 
-The site has two public surfaces. Blog is the post list at the root.
-About is biography, research, publications, talks, and contacts.
+The site has four public surfaces. Home is identity, the research journey, and the third-person bio.
+Publications is the paper list.
+Talks is media and conference appearances.
+Writing is the post list.
 
 Live site: https://s-tikhomirov.github.io/
 
@@ -39,4 +41,4 @@ bundle install
 bundle exec jekyll serve --livereload
 ```
 
-Open http://127.0.0.1:4000/ and http://127.0.0.1:4000/about
+Open http://127.0.0.1:4000/ , http://127.0.0.1:4000/publications/ , http://127.0.0.1:4000/talks/ , and http://127.0.0.1:4000/writing/
