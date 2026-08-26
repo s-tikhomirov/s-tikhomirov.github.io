@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Outdated] Channel probing in the face of parallel channels
+title: (Outdated) Channel probing in the face of parallel channels
 published: true
 ---
 
