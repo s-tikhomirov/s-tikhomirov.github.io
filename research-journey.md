@@ -56,10 +56,17 @@ We [proposed](/assets/papers/unjamming-lightning.pdf) a new fee scheme that incl
 
 I also [contributed](https://github.com/lnbook/lnbook/issues/400) to a [chapter on security and privacy](https://github.com/lnbook/lnbook/blob/develop/16_security_privacy_ln.asciidoc) for "[Mastering the Lightning Network](https://www.oreilly.com/library/view/mastering-the-lightning/9781492054856/)".
 
-## IFT and Logos
+## 2023–2026: IFT and Logos
 
-TBD.
+In 2023–2026 I was a protocol research engineer at [IFT](https://free.technology/), in the core development team of [Logos](https://logos.co/), a private-by-default peer-to-peer stack for decentralized applications.
 
-{% comment %}
-Smart contract [specification](https://lip.logos.co/messaging/core/raw/rln-contract.html) for spam-resistant P2P messaging with Rate-Limiting Nullifiers (RLN)
-{% endcomment %}
+My main research topic was service incentivization.
+Service nodes provide services to clients, and the network needs a way for users to pay providers without revealing either side, even though payments settle on a blockchain.
+
+I specified [payment streams](https://github.com/logos-co/lez-payment-streams) and built a proof-of-concept on Logos Execution Zone (LEZ), a privacy-preserving environment based on the RISC Zero virtual machine.
+Funds accrue in proportion to elapsed time, so streams stay lightweight on-chain, in the spirit of Bitcoin's Lightning Network and Ethereum state channels.
+
+I specified and reviewed an implementation of the Rate-Limiting Nullifiers (RLN) [membership contract](https://lip.logos.co/messaging/core/raw/rln-contract.html) on the Linea rollup.
+
+I co-authored [The Waku Network as Infrastructure for dApps](/assets/papers/waku-poster-paper.pdf) and [Message Latency in Waku Relay with Rate Limiting Nullifiers](/assets/papers/waku-latency.pdf) on Waku, later rebranded as Logos Messaging.
+I also co-authored a paper on Status Network, a rollup with gasless transaction admission that uses RLN against spam: [Rate-Limiting Nullifiers for Gasless Sequencer Admission in Ethereum Layer-2 Rollups](/assets/papers/rln-gasless-sequencer-admission.pdf).
