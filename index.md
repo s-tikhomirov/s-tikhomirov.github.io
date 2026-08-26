@@ -13,7 +13,7 @@ My work includes:
 * Off-chain [payment streams](https://github.com/logos-co/lez-payment-streams) for the Logos P2P network
 * Attacks on Bitcoin's Lightning Network: [channel jamming](/unjamming-lightning/) and [balance probing](/lightning-probing-2/)
 * P2P-based [transaction clustering](/transaction-clustering-bitcoin/) in Bitcoin, Zcash, and Monero
-* Static analysis of Solidity for [vulnerability detection](http://hdl.handle.net/10993/35862) in Ethereum smart contracts
+* Static analysis of Solidity for [vulnerability detection](/assets/papers/smartcheck.pdf) in Ethereum smart contracts
 
 See [Publications](/publications/) for the full list of papers.
 

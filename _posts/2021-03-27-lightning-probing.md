@@ -15,7 +15,7 @@ We believe that ignoring **parallel channels** is one of the biggest shortcoming
 We suggest a wide range of countermeasures (both aware and unaware of parallel channels) and evaluate the feasibility of the attack.
 Using our novel LN simulator, we demonstrate that our countermeasures bound the attacker's information gain at 30% while making the attack 2-4 times longer.
 
-The paper is available here: [https://eprint.iacr.org/2021/384](https://eprint.iacr.org/2021/384)
+The paper is available here: [PDF](/assets/papers/lightning-probing-parallel-channels.pdf)
 
 1. [Basics of channel probing](#basics-of-channel-probing)
 2. [Probing applications and why parallel channels matter](#probing-applications-and-why-parallel-channels-matter)

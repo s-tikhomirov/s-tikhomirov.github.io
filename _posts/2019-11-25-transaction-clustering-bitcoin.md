@@ -5,8 +5,8 @@ published: true
 ---
 
 For the significant portion of 2018, as part of my PhD studies in [CryptoLUX](https://www.cryptolux.org/) group at the [University of Luxembourg](https://wwwen.uni.lu/), I've been working on network-level privacy attack on Bitcoin and other cryptocurrencies with professor Alex Biryukov.
-This blog post summarizes our findings, which have been published in 2019 ("[Deanonymization and linkability of cryptocurrency transactions based on network analysis](http://hdl.handle.net/10993/39724)").
-You can watch my presentation at EuroS&P 2019 in Stockholm (press CC for subtitles; [slides](https://orbilu.uni.lu/bitstream/10993/39724/2/biryukov-tikhomirov-deanonymization-and-linkability-slides.pdf) are also available):
+This blog post summarizes our findings, which have been published in 2019 ("[Deanonymization and linkability of cryptocurrency transactions based on network analysis](/assets/papers/deanonymization-and-linkability.pdf)").
+You can watch my presentation at EuroS&P 2019 in Stockholm (press CC for subtitles; [slides](/assets/papers/deanonymization-and-linkability-slides.pdf) are also available):
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XXO3FBqwwO8" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 You though it was enough to use mixers or privacy-focused altcoins to preserve the privacy of your cryptocurrency transactions?
 Think again...
@@ -179,6 +179,6 @@ Novel P2P protocols may help alleviate the attack by preferring outbound connect
 
 See the full papers for more details:
 
-* [Deanonymization and linkability of cryptocurrency transactions based on network analysis](http://hdl.handle.net/10993/39724) (IEEE EuroS&P 2019)
-* [Transaction Clustering Using Network Traffic Analysis for Bitcoin and Derived Blockchains](http://hdl.handle.net/10993/39728) (CryBlock workshop at IEEE INFOCOM 2019) -- a shorter version of "Deanonymization and linkability"
-* [Security and Privacy of Mobile Wallet Users in Bitcoin, Dash, Monero, and Zcash](http://hdl.handle.net/10993/39729) (in a special issue of "Pervasive and Mobile Computing" on blockchain technologies) -- studying the networking aspects of mobile wallets and applying the clustering technique to transactions issued from smartphones.
+* [Deanonymization and linkability of cryptocurrency transactions based on network analysis](/assets/papers/deanonymization-and-linkability.pdf) (IEEE EuroS&P 2019)
+* [Transaction Clustering Using Network Traffic Analysis for Bitcoin and Derived Blockchains](/assets/papers/transaction-clustering.pdf) (CryBlock workshop at IEEE INFOCOM 2019) -- a shorter version of "Deanonymization and linkability"
+* [Security and Privacy of Mobile Wallet Users in Bitcoin, Dash, Monero, and Zcash](/assets/papers/mobile-wallets.pdf) (in a special issue of "Pervasive and Mobile Computing" on blockchain technologies) -- studying the networking aspects of mobile wallets and applying the clustering technique to transactions issued from smartphones.
